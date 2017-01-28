@@ -1,6 +1,7 @@
-#版本 0.17
-#时间 2017年1月28日15:56:26
+# 0.18
+# 2017年1月28日21:00:34
 #leosam1995
+#实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
 #屏蔽部分运营商劫持网页弹出的漂浮球广告&流量统计
 #拦截常用应用程序的隐私跟踪&行为分析&数据统计&开屏广告
@@ -29,9 +30,11 @@
 ^(.*\.)?localhost$
 
 # 国内网直连
+^(.*\.)?.*\.cn$
 ^(.*\.)?edu\.cn$
-^(.*\.)?(*)?\.cn$
-^(.*\.)?(*)?\.edu\.cn$
+^(.*\.)?.*\.edu\.cn$
+^(.*\.)?.*\.gov\.cn$
+
 
 # iqiyi
 ^(.*\.)?iqiyi\.com$
@@ -63,8 +66,8 @@
 ^(.*\.)?sonyentertainmentnetwork\.com$
 
 # MytvSUPER & Netflix
-^(.*\.)?nowtv100$
-^(.*\.)?rthklive$
+^(.*\.)?.*nowtv100.*\..*$
+^(.*\.)?.*rthklive.*\..*$
 ^(.*\.)?netflix\.com$
 ^(.*\.)?netflix\.net$
 ^(.*\.)?nflxext\.com$
@@ -4699,28 +4702,29 @@
 [outbound_block_list]
 #这里不允许 ip111 访问
 # AD Block KEYWORD
-#^(.*\.)?admarvel$
-#^(.*\.)?admaster$
-#^(.*\.)?adsage$
-#^(.*\.)?adsmogo$
-#^(.*\.)?adsrvmedia$
-#^(.*\.)?adwords$
-#^(.*\.)?domob$
-#^(.*\.)?duomeng$
-#^(.*\.)?dwtrack$
-#^(.*\.)?guanggao$
-#^(.*\.)?lianmeng$
-#^(.*\.)?omgmta$
-#^(.*\.)?openx$
-#^(.*\.)?partnerad$
-#^(.*\.)?pingfore$
-#^(.*\.)?supersonicads$
-#^(.*\.)?tracking$
-#^(.*\.)?uedas$
-#^(.*\.)?umeng$
-#^(.*\.)?usage$
-#^(.*\.)?wlmonitor$
-#^(.*\.)?zjtoolbar$
+# 实验功能 可能有误伤
+^(.*\.)?.*admarvel.*\..*$
+^(.*\.)?.*admaster.*\..*$
+^(.*\.)?.*adsage.*\..*$
+^(.*\.)?.*adsmogo.*\..*$
+^(.*\.)?.*adsrvmedia.*\..*$
+^(.*\.)?.*adwords.*\..*$
+^(.*\.)?.*domob.*\..*$
+^(.*\.)?.*duomeng.*\..*$
+^(.*\.)?.*dwtrack.*\..*$
+^(.*\.)?.*guanggao.*\..*$
+^(.*\.)?.*lianmeng.*\..*$
+^(.*\.)?.*omgmta.*\..*$
+^(.*\.)?.*openx.*\..*$
+^(.*\.)?.*partnerad.*\..*$
+^(.*\.)?.*pingfore.*\..*$
+^(.*\.)?.*supersonicads.*\..*$
+^(.*\.)?.*tracking.*\..*$
+^(.*\.)?.*uedas.*\..*$
+^(.*\.)?.*umeng.*\..*$
+^(.*\.)?.*usage.*\..*$
+^(.*\.)?.*wlmonitor.*\..*$
+^(.*\.)?.*zjtoolbar.*\..*$
 
 
 # Ali
@@ -4866,7 +4870,7 @@
 ^(.*\.)?u1\.img\.mobile\.sina\.cn$
 
 # QQ
-DOMAIN-KEYWORD,omgmta$
+^(.*\.)?.*omgmta.*\..*$
 ^(.*\.)?act\.qq\.com$
 ^(.*\.)?ad\.qun\.qq\.com$
 ^(.*\.)?adsense\.html5\.qq\.com$
@@ -5344,6 +5348,25 @@ DOMAIN-KEYWORD,omgmta$
 ^(.*\.)?zhstatic\.zhihu\.com$
 ^(.*\.)?zzsx8\.com$
 
+// 封锁软件隐私追踪
+// Block privacy tracker within apps
+^(.*\.)?.*flurry.co.*\..*$
+^(.*\.)?alexa\.links\.cn$
+^(.*\.)?api\.adform\.com$
+^(.*\.)?api\.amplitude\.com$
+^(.*\.)?api\.tapstream\.com$
+^(.*\.)?app\.sysdigcloud\.com$
+^(.*\.)?bam\.nr-data\.net$
+^(.*\.)?collector\.githubapp\.com$
+^(.*\.)?counter\.kingsoft\.com$
+^(.*\.)?e\.apsalar\.com$
+^(.*\.)?pixel\.redditmedia\.com$
+^(.*\.)?pixel\.wp\.com$
+^(.*\.)?sfsapi\.micloud\.xiaomi\.net$
+^(.*\.)?stat\.m\.jd\.com$
+^(.*\.)?syndication\.streamads\.yahoo\.com$
+^(.*\.)?youmi\.net$
+
 
 # Beijing Mobile Float
 221.179.140.0/24
@@ -5772,3 +5795,4 @@ DOMAIN-KEYWORD,omgmta$
 ^(.*\.)?twitter\.com$
 ^(.*\.)?youtube-nocookie\.com$
 ^(.*\.)?youtube\.com$
+^(.*\.)?.*google.*\..*$
