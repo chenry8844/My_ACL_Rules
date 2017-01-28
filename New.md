@@ -1,6 +1,12 @@
-﻿下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
-
+下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 #更新历史：
+
+# 0.18
+# 2017年1月28日21:00:34
+设置gov.cn、edu.cn和.cn域名直连
+添加拦截常用应用程序的隐私跟踪
+处理广告关键字：如有误伤，请见谅！
+如surge的DOMAIN-KEYWORD,admarvel,REJECT改成^(.*\.)?.*admarvel.*\..*$
 
 # 0.17
 # 2017年1月28日14:07:15
@@ -14,7 +20,6 @@
 # 2017年1月28日14:03:25
 更新优酷、爱奇艺 
 更新完善 [运营商] 广告
-
 
 # 0.16以前
 # 2017年1月28日以前
