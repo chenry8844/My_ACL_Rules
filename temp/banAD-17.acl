@@ -14,7 +14,7 @@
 #默认代理
 
 #**********************************************************************
-[bypass_all]
+[bypass_list]
 # 直连列表
 
 # 局域网直连
@@ -158,6 +158,7 @@
 ^(.*\.)?ifeng\.com$
 ^(.*\.)?ifengimg\.com$
 ^(.*\.)?ipip\.net$
+^(.*\.)?ithome\.net$
 ^(.*\.)?ixdzs\.com$
 ^(.*\.)?jd\.com$
 ^(.*\.)?jianshu\.com$
@@ -4781,7 +4782,6 @@
 ^(.*\.)?httb1\.bdstatic\.com$
 ^(.*\.)?imageplus\.baidu\.com$
 ^(.*\.)?itsdata\.map\.baidu\.com$
-^(.*\.)?libs\.baidu\.com$
 ^(.*\.)?log\.nuomi\.com$
 ^(.*\.)?log\.waimai\.baidu\.com$
 ^(.*\.)?ma\.baidu\.com$
