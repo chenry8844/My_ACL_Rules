@@ -1,5 +1,5 @@
-# 0.18
-# 2017年1月28日21:00:34
+# 0.19
+# 2017年1月29日13:56:10
 #leosam1995
 #实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -29,30 +29,181 @@
 100.64.0.0/10
 ^(.*\.)?localhost$
 
-# 国内网直连
+# 国内特殊域名直连
 ^(.*\.)?.*\.cn$
 ^(.*\.)?edu\.cn$
 ^(.*\.)?gov\.cn$
+^(.*\.)?net\.cn$
+^(.*\.)?org\.cn$
 
 
-# iqiyi
-^(.*\.)?iqiyi\.com$
-^(.*\.)?qiyipic\.com$
-^(.*\.)?qiyi\.com$
-^(.*\.)?irs01\.com$
-^(.*\.)?scorecardresearch\.com$
+# Accelerate direct sites
+^(.*\.)?126\.net$
+^(.*\.)?163\.com$
+^(.*\.)?360\.com$
+^(.*\.)?360buy\.com$
+^(.*\.)?360buyimg\.com$
+^(.*\.)?36kr\.com$
 ^(.*\.)?71\.am$
-^(.*\.)?qihucdn\.com$
-^(.*\.)?qhimg\.com$
-
-# taobao
-^(.*\.)?taobao\.com$
-^(.*\.)?alicdn\.com$
-^(.*\.)?mmstat\.com$
-^(.*\.)?tbcdn\.com$
-^(.*\.)?tmall\.com$
-^(.*\.)?tanx\.com$
 ^(.*\.)?\.intl\.taobao\.com$
+^(.*\.)?abercrombie\.com$
+^(.*\.)?acfun\.tv$
+^(.*\.)?acgvideo\.com$
+^(.*\.)?adobesc\.com$
+^(.*\.)?air-matters\.com$
+^(.*\.)?air-matters\.io$
+^(.*\.)?aixifan\.com$
+^(.*\.)?alicdn\.com$
+^(.*\.)?alipay\.com$
+^(.*\.)?amap\.com$
+^(.*\.)?appstore\.com$
+^(.*\.)?autonavi\.com$
+^(.*\.)?bababian\.com$
+^(.*\.)?baidu\.com$
+^(.*\.)?battle\.net$
+^(.*\.)?bbs\.feng\.com$
+^(.*\.)?bdimg\.com$
+^(.*\.)?bdstatic\.com$
+^(.*\.)?bilibili\.com$
+^(.*\.)?bing\.com$
+^(.*\.)?blizzard\.com$
+^(.*\.)?caiyunapp\.com$
+^(.*\.)?ccgslb\.com$
+^(.*\.)?ccgslb\.net$
+^(.*\.)?chinacache\.net$
+^(.*\.)?chunbo\.com$
+^(.*\.)?chunboimg\.com$
+^(.*\.)?clouddn\.com$
+^(.*\.)?cmfu\.com$
+^(.*\.)?cnbeta\.com$
+^(.*\.)?cnbetacdn\.com$
+^(.*\.)?culturedcode\.com$
+^(.*\.)?didialift\.com$
+^(.*\.)?douban\.com$
+^(.*\.)?doubanio\.com$
+^(.*\.)?duokan\.com$
+^(.*\.)?duoshuo\.com$
+^(.*\.)?dytt8\.net$
+^(.*\.)?easou\.com$
+^(.*\.)?ec4\.images-amazon\.com$
+^(.*\.)?ecitic\.com$
+^(.*\.)?ewqcxz\.com$
+^(.*\.)?feng\.com$
+^(.*\.)?fir\.im$
+^(.*\.)?frdic\.com$
+^(.*\.)?fresh-ideas\.cc$
+^(.*\.)?g-ec4\.images-amazon\.com$
+^(.*\.)?geetest\.com$
+^(.*\.)?godic\.net$
+^(.*\.)?gtimg\.com$
+^(.*\.)?haibian\.com$
+^(.*\.)?haosou\.com$
+^(.*\.)?hdslb\.com$
+^(.*\.)?hdslb\.net$
+^(.*\.)?hollisterco\.com$
+^(.*\.)?hongxiu\.com$
+^(.*\.)?hxcdn\.net$
+^(.*\.)?iciba\.com$
+^(.*\.)?ifeng\.com$
+^(.*\.)?ifengimg\.com$
+^(.*\.)?ipip\.net$
+^(.*\.)?iqiyi\.com$
+^(.*\.)?ithome\.net$
+^(.*\.)?ixdzs\.com$
+^(.*\.)?jd\.com$
+^(.*\.)?jianshu\.com$
+^(.*\.)?jianshu\.io$
+^(.*\.)?jianshuapi\.com$
+^(.*\.)?jiathis\.com$
+^(.*\.)?knewone\.com$
+^(.*\.)?lecloud\.com$
+^(.*\.)?lemicp\.com$
+^(.*\.)?letv\.com$
+^(.*\.)?letvcloud\.com$
+^(.*\.)?luoo\.net$
+^(.*\.)?lxdns\.com$
+^(.*\.)?mi\.com$
+^(.*\.)?miaopai\.com$
+^(.*\.)?miui\.com$
+^(.*\.)?miwifi\.com$
+^(.*\.)?mmstat\.com$
+^(.*\.)?mob\.com$
+^(.*\.)?moke\.com$
+^(.*\.)?myqcloud\.com$
+^(.*\.)?myunlu\.com$
+^(.*\.)?netease\.com$
+^(.*\.)?ourdvs\.com$
+^(.*\.)?overcast\.fm$
+^(.*\.)?piaotian\.net$
+^(.*\.)?pstatp\.com$
+^(.*\.)?qbox\.me$
+^(.*\.)?qcloud\.com$
+^(.*\.)?qdaily\.com$
+^(.*\.)?qdmm\.com$
+^(.*\.)?qhimg\.com$
+^(.*\.)?qidian\.com$
+^(.*\.)?qihucdn\.com$
+^(.*\.)?qin\.io$
+^(.*\.)?qiniucdn\.com$
+^(.*\.)?qiniudn\.com$
+^(.*\.)?qiyi\.com$
+^(.*\.)?qiyipic\.com$
+^(.*\.)?qq\.com$
+^(.*\.)?qqurl\.com$
+^(.*\.)?rarbg\.to$
+^(.*\.)?rime\.im$
+^(.*\.)?rrmj\.tv$
+^(.*\.)?ruguoapp\.com$
+^(.*\.)?sandai\.net$
+^(.*\.)?sinaapp\.com$
+^(.*\.)?snwx\.com$
+^(.*\.)?so\.com$
+^(.*\.)?sogou\.com$
+^(.*\.)?sogoucdn\.com$
+^(.*\.)?sohu\.com$
+^(.*\.)?soku\.com$
+^(.*\.)?soso\.com$
+^(.*\.)?sspai\.com$
+^(.*\.)?startssl\.com$
+^(.*\.)?suning\.com$
+^(.*\.)?taobao\.com$
+^(.*\.)?tbcdn\.com$
+^(.*\.)?tenpay\.com$
+^(.*\.)?tietuku\.com$
+^(.*\.)?tmall\.com$
+^(.*\.)?tudou\.com$
+^(.*\.)?udache\.com$
+^(.*\.)?upaiyun\.com$
+^(.*\.)?upyun\.com$
+^(.*\.)?uxengine\.net$
+^(.*\.)?weibo\.com$
+^(.*\.)?weiphone\.com$
+^(.*\.)?weiphone\.net$
+^(.*\.)?windowsupdate\.com$
+^(.*\.)?xdrig\.com$
+^(.*\.)?xiami\.com$
+^(.*\.)?xiami\.net$
+^(.*\.)?xiaojukeji\.com$
+^(.*\.)?xiaomi\.com$
+^(.*\.)?xiaomi\.net$
+^(.*\.)?xiaomicp\.com$
+^(.*\.)?ximalaya\.com$
+^(.*\.)?xitek\.com$
+^(.*\.)?xmcdn\.com$
+^(.*\.)?xslb\.net$
+^(.*\.)?xunlei\.com$
+^(.*\.)?yach\.me$
+^(.*\.)?yeepay\.com$
+^(.*\.)?yhd\.com$
+^(.*\.)?yinxiang\.com$
+^(.*\.)?yixia\.com$
+^(.*\.)?ykimg\.com$
+^(.*\.)?youdao\.com$
+^(.*\.)?youku\.com$
+^(.*\.)?zealer\.com$
+^(.*\.)?zgslb\.net$
+^(.*\.)?zhihu\.com$
+^(.*\.)?zhimg\.com$
 
 # Sony
 ^(.*\.)?playstation\.com$
@@ -94,168 +245,6 @@
 ^(.*\.)?itunes\.com$
 ^(.*\.)?itunes\.apple\.com$
 ^(.*\.)?me\.com$
-
-# Accelerate direct sites
-^(.*\.)?-cn$
-^(.*\.)?126\.net$
-^(.*\.)?163\.com$
-^(.*\.)?360\.com$
-^(.*\.)?360buy\.com$
-^(.*\.)?360buyimg\.com$
-^(.*\.)?36kr\.com$
-^(.*\.)?abercrombie\.com$
-^(.*\.)?acfun\.tv$
-^(.*\.)?acgvideo\.com$
-^(.*\.)?adobesc\.com$
-^(.*\.)?air-matters\.com$
-^(.*\.)?air-matters\.io$
-^(.*\.)?aixifan\.com$
-^(.*\.)?alicdn\.com$
-^(.*\.)?alipay\.com$
-^(.*\.)?amap\.com$
-^(.*\.)?appstore\.com$
-^(.*\.)?autonavi\.com$
-^(.*\.)?bababian\.com$
-^(.*\.)?baidu\.com$
-^(.*\.)?battle\.net$
-^(.*\.)?bbs\.feng\.com$
-^(.*\.)?bdimg\.com$
-^(.*\.)?bdstatic\.com$
-^(.*\.)?bilibili\.com$
-^(.*\.)?bing\.com$
-^(.*\.)?blizzard\.com$
-^(.*\.)?caiyunapp\.com$
-^(.*\.)?ccgslb\.com$
-^(.*\.)?ccgslb\.net$
-^(.*\.)?chinacache\.net$
-^(.*\.)?chunbo\.com$
-^(.*\.)?chunboimg\.com$
-^(.*\.)?clouddn\.com$
-^(.*\.)?cmfu\.com$
-^(.*\.)?cnbeta\.com$
-^(.*\.)?cnbetacdn\.com$
-^(.*\.)?culturedcode\.com$
-^(.*\.)?didialift\.com$
-^(.*\.)?douban\.com$
-^(.*\.)?doubanio\.com$
-^(.*\.)?duokan\.com$
-^(.*\.)?duoshuo\.com$
-^(.*\.)?dytt8\.net$
-^(.*\.)?easou\.com$
-^(.*\.)?ecitic\.com$
-^(.*\.)?ewqcxz\.com$
-^(.*\.)?feng\.com$
-^(.*\.)?fir\.im$
-^(.*\.)?frdic\.com$
-^(.*\.)?fresh-ideas\.cc$
-^(.*\.)?geetest\.com$
-^(.*\.)?godic\.net$
-^(.*\.)?gtimg\.com$
-^(.*\.)?haibian\.com$
-^(.*\.)?haosou\.com$
-^(.*\.)?hdslb\.com$
-^(.*\.)?hdslb\.net$
-^(.*\.)?hollisterco\.com$
-^(.*\.)?hongxiu\.com$
-^(.*\.)?hxcdn\.net$
-^(.*\.)?iciba\.com$
-^(.*\.)?ifeng\.com$
-^(.*\.)?ifengimg\.com$
-^(.*\.)?ipip\.net$
-^(.*\.)?ithome\.net$
-^(.*\.)?ixdzs\.com$
-^(.*\.)?jd\.com$
-^(.*\.)?jianshu\.com$
-^(.*\.)?jianshu\.io$
-^(.*\.)?jianshuapi\.com$
-^(.*\.)?jiathis\.com$
-^(.*\.)?knewone\.com$
-^(.*\.)?lecloud\.com$
-^(.*\.)?lemicp\.com$
-^(.*\.)?letv\.com$
-^(.*\.)?letvcloud\.com$
-^(.*\.)?luoo\.net$
-^(.*\.)?lxdns\.com$
-^(.*\.)?mi\.com$
-^(.*\.)?miaopai\.com$
-^(.*\.)?miui\.com$
-^(.*\.)?miwifi\.com$
-^(.*\.)?mob\.com$
-^(.*\.)?moke\.com$
-^(.*\.)?myqcloud\.com$
-^(.*\.)?myunlu\.com$
-^(.*\.)?netease\.com$
-^(.*\.)?ourdvs\.com$
-^(.*\.)?overcast\.fm$
-^(.*\.)?piaotian\.net$
-^(.*\.)?pstatp\.com$
-^(.*\.)?qbox\.me$
-^(.*\.)?qcloud\.com$
-^(.*\.)?qdaily\.com$
-^(.*\.)?qdmm\.com$
-^(.*\.)?qhimg\.com$
-^(.*\.)?qidian\.com$
-^(.*\.)?qihucdn\.com$
-^(.*\.)?qin\.io$
-^(.*\.)?qiniucdn\.com$
-^(.*\.)?qiniudn\.com$
-^(.*\.)?qq\.com$
-^(.*\.)?qqurl\.com$
-^(.*\.)?rarbg\.to$
-^(.*\.)?rime\.im$
-^(.*\.)?rrmj\.tv$
-^(.*\.)?ruguoapp\.com$
-^(.*\.)?sandai\.net$
-^(.*\.)?sinaapp\.com$
-^(.*\.)?snwx\.com$
-^(.*\.)?so\.com$
-^(.*\.)?sogou\.com$
-^(.*\.)?sogoucdn\.com$
-^(.*\.)?sohu\.com$
-^(.*\.)?soku\.com$
-^(.*\.)?soso\.com$
-^(.*\.)?sspai\.com$
-^(.*\.)?startssl\.com$
-^(.*\.)?suning\.com$
-^(.*\.)?taobao\.com$
-^(.*\.)?tenpay\.com$
-^(.*\.)?tietuku\.com$
-^(.*\.)?tmall\.com$
-^(.*\.)?tudou\.com$
-^(.*\.)?udache\.com$
-^(.*\.)?upaiyun\.com$
-^(.*\.)?upyun\.com$
-^(.*\.)?uxengine\.net$
-^(.*\.)?weibo\.com$
-^(.*\.)?weiphone\.com$
-^(.*\.)?weiphone\.net$
-^(.*\.)?windowsupdate\.com$
-^(.*\.)?xdrig\.com$
-^(.*\.)?xiami\.com$
-^(.*\.)?xiami\.net$
-^(.*\.)?xiaojukeji\.com$
-^(.*\.)?xiaomi\.com$
-^(.*\.)?xiaomi\.net$
-^(.*\.)?xiaomicp\.com$
-^(.*\.)?ximalaya\.com$
-^(.*\.)?xitek\.com$
-^(.*\.)?xmcdn\.com$
-^(.*\.)?xslb\.net$
-^(.*\.)?xunlei\.com$
-^(.*\.)?yach\.me$
-^(.*\.)?yeepay\.com$
-^(.*\.)?yhd\.com$
-^(.*\.)?yinxiang\.com$
-^(.*\.)?yixia\.com$
-^(.*\.)?ykimg\.com$
-^(.*\.)?youdao\.com$
-^(.*\.)?youku\.com$
-^(.*\.)?zealer\.com$
-^(.*\.)?zgslb\.net$
-^(.*\.)?zhihu\.com$
-^(.*\.)?zhimg\.com$
-^(.*\.)?ec4\.images-amazon\.com$
-^(.*\.)?g-ec4\.images-amazon\.com$
 
 #**********************************************************************
 # 国内ip地址
@@ -4861,15 +4850,12 @@
 ^(.*\.)?wbclick\.mobile\.sina\.cn$
 ^(.*\.)?wbpctips\.mobile\.sina\.cn$
 ^(.*\.)?zymo\.mps\.weibo\.com$
-
-^(.*\.)?g\.uusee\.com$
 ^(.*\.)?gw5\.push\.mcp\.weibo\.cn$
 ^(.*\.)?static\.g\.ppstream\.com$
-^(.*\.)?traffic\.uusee\.com$
 ^(.*\.)?u1\.img\.mobile\.sina\.cn$
 
 # QQ
-^(.*\.)?.*omgmta.*\..*$
+#^(.*\.)?.*omgmta.*\..*$
 ^(.*\.)?act\.qq\.com$
 ^(.*\.)?ad\.qun\.qq\.com$
 ^(.*\.)?adsense\.html5\.qq\.com$
@@ -4940,7 +4926,6 @@
 ^(.*\.)?line\.naver\.jp$
 
 # Weifeng
-^(.*\.)?fengbuy\.com$
 ^(.*\.)?tutuapp\.com$
 ^(.*\.)?we\.tm$
 
@@ -4973,7 +4958,7 @@
 ^(.*\.)?pagead\.l\.google\.com$
 ^(.*\.)?service\.urchin\.com$
 
-# Ads in Video apps
+# Ads in Video apps********************下面都是
 ^(.*\.)?actives\.youku\.com$
 ^(.*\.)?ad\.api\.3g\.tudou\.com$
 ^(.*\.)?ad\.api\.3g\.youku\.com$
@@ -4982,9 +4967,7 @@
 ^(.*\.)?adplay\.tudou\.com$
 ^(.*\.)?ads\.cdn\.tvb\.com$
 ^(.*\.)?afp\.qiyi\.com$
-^(.*\.)?agn\.aty\.sohu\.com$
 ^(.*\.)?ark\.letv\.com$
-^(.*\.)?asimgs\.pplive\.cn$
 ^(.*\.)?atm\.youku\.com$
 ^(.*\.)?btrace\.video\.qq\.com$
 ^(.*\.)?c\.algovid\.com$
@@ -4993,7 +4976,6 @@
 ^(.*\.)?cm\.zhiziyun\.com$
 ^(.*\.)?d\.dsp\.imageter\.com$
 ^(.*\.)?dc\.letv\.com$
-^(.*\.)?de\.as\.pptv\.com$
 ^(.*\.)?g\.uusee\.com$
 ^(.*\.)?gg\.jtertp\.com$
 ^(.*\.)?goods\.tudou\.com$
@@ -5006,8 +4988,8 @@
 ^(.*\.)?logstat\.t\.sfht\.com$
 ^(.*\.)?lstat\.youku\.com$
 ^(.*\.)?lvip\.youku\.com$
-^(.*\.)?m\.aty\.sohu\.com$
 ^(.*\.)?match\.rtbidder\.net$
+^(.*\.)?mp4\.res\.hunantv\.com$
 ^(.*\.)?n-st\.vip\.com$
 ^(.*\.)?n\.mark\.letv\.com$
 ^(.*\.)?nstat\.tudou\.com$
@@ -5017,7 +4999,6 @@
 ^(.*\.)?p\.l\.youku\.com$
 ^(.*\.)?pop\.uusee\.com$
 ^(.*\.)?pq\.stat\.ku6\.com$
-^(.*\.)?pv\.sohu\.com$
 ^(.*\.)?r\.l\.youku\.com$
 ^(.*\.)?rcd\.iqiyi\.com$
 ^(.*\.)?rtb\.behe\.com$
@@ -5028,7 +5009,6 @@
 ^(.*\.)?stat\.youku\.com$
 ^(.*\.)?static\.bshare\.cn$
 ^(.*\.)?static\.duoshuo\.com$
-^(.*\.)?static\.g\.ppstream\.com$
 ^(.*\.)?static\.ku6\.com$
 ^(.*\.)?static\.lstat\.youku\.com$
 ^(.*\.)?stats\.tudou\.com$
@@ -5055,32 +5035,6 @@
 ^(.*\.)?mfp\.deliver\.ifeng\.com$
 ^(.*\.)?stadig\.ifeng\.com$
 
-^(.*\.)?ads\.cdn\.tvb\.com$
-^(.*\.)?btrace\.video\.qq\.com$
-^(.*\.)?c\.algovid\.com$
-^(.*\.)?cc\.xtgreat\.com$
-^(.*\.)?d\.dsp\.imageter\.com$
-^(.*\.)?gg\.jtertp\.com$
-^(.*\.)?gug\.ku6cdn\.com$
-^(.*\.)?kwflvcdn\.000dn\.com$
-^(.*\.)?logger\.baofeng\.com$
-^(.*\.)?logstat\.t\.sfht\.com$
-^(.*\.)?match\.rtbidder\.net$
-^(.*\.)?mp4\.res\.hunantv\.com$
-^(.*\.)?n-st\.vip\.com$
-^(.*\.)?pop\.uusee\.com$
-^(.*\.)?pq\.stat\.ku6\.com$
-^(.*\.)?rtb\.behe\.com$
-^(.*\.)?shrek\.6\.cn$
-^(.*\.)?simba\.6\.cn$
-^(.*\.)?st\.vq\.ku6\.cn$
-^(.*\.)?static\.bshare\.cn$
-^(.*\.)?static\.duoshuo\.com$
-^(.*\.)?static\.ku6\.com$
-^(.*\.)?t\.cr-nielsen\.com$
-^(.*\.)?union\.6\.cn$
-^(.*\.)?x\.da\.hunantv\.com$
-
 # Youtube
 ^(.*\.)?ads\.youtube\.com$
 ^(.*\.)?azabu-u\.ac\.jp$
@@ -5093,12 +5047,13 @@
 ^(.*\.)?m-78\.jp$
 ^(.*\.)?shizen-no-megumi\.com$
 
+# Ads in Video apps********************上面都是
+
 # PlayStation Store
 # ^(.*\.)?flashtalking\.com$
 # ^(.*\.)?optimix\.asia$
 # ^(.*\.)?googleadservices\.com$
 # ^(.*\.)?doubleclick\.net$
-
 
 
 #AD Block
@@ -5134,7 +5089,6 @@
 ^(.*\.)?adlive\.cn$
 ^(.*\.)?adm\.easou\.com$
 ^(.*\.)?admin5\.com$
-^(.*\.)?admob\.com$
 ^(.*\.)?admon\.cn$
 ^(.*\.)?adnxs\.com$
 ^(.*\.)?adpolestar\.net$
@@ -5173,7 +5127,6 @@
 ^(.*\.)?atdmt\.com$
 ^(.*\.)?audience\.network$
 ^(.*\.)?baifendian\.com$
-^(.*\.)?bam\.nr-data\.net$
 ^(.*\.)?baycode\.cn$
 ^(.*\.)?beacon\.tingyun\.com$
 ^(.*\.)?biddingx\.com$
@@ -5191,11 +5144,9 @@
 ^(.*\.)?clickzs\.com$
 ^(.*\.)?cmcore\.com$
 ^(.*\.)?cnzz\.com$
-^(.*\.)?collector\.githubapp\.com$
 ^(.*\.)?coremetrics\.com$
 ^(.*\.)?cps\.360buy\.com$
 ^(.*\.)?crunchyroll\.com$
-^(.*\.)?csi\.gstatic\.com$
 ^(.*\.)?customer-security\.online$
 ^(.*\.)?ddapp\.cn$
 ^(.*\.)?dianru\.com$
@@ -5215,7 +5166,6 @@
 ^(.*\.)?get\.sogou\.com$
 ^(.*\.)?go-mpulse$
 ^(.*\.)?googlesyndication\.com$
-^(.*\.)?googletagmanager\.com$
 ^(.*\.)?googletagservices\.com$
 ^(.*\.)?growingio\.com$
 ^(.*\.)?guohead\.com$
@@ -5250,10 +5200,8 @@
 ^(.*\.)?megajoy\.com$
 ^(.*\.)?miidi\.net$
 ^(.*\.)?mixpanel\.com$
-^(.*\.)?mmstat\.com$
 ^(.*\.)?mng-ads\.com$
 ^(.*\.)?moatads\.com$
-^(.*\.)?mob\.com$
 ^(.*\.)?mobclix\.com$
 ^(.*\.)?mobfox\.com$
 ^(.*\.)?mobisage\.cn$
@@ -5271,7 +5219,6 @@
 ^(.*\.)?pb\.sogou\.com$
 ^(.*\.)?picture\.duokan\.com$
 ^(.*\.)?pingdom\.net$
-^(.*\.)?pixel\.wp\.com$
 ^(.*\.)?publicidad\.net$
 ^(.*\.)?publicidad\.tv$
 ^(.*\.)?pubnub\.com$
@@ -5287,7 +5234,6 @@
 ^(.*\.)?scorecardresearch\.com$
 ^(.*\.)?serving-sys\.com$
 ^(.*\.)?shuiguo\.com$
-^(.*\.)?simaba\.taobao\.com$
 ^(.*\.)?sitemeter\.com$
 ^(.*\.)?sitescout\.com$
 ^(.*\.)?smartadserver\.com$
@@ -5295,14 +5241,12 @@
 ^(.*\.)?somecoding\.com$
 ^(.*\.)?sponsorpay\.com$
 ^(.*\.)?ssp\.kssws\.ks-cdn\.com$
-^(.*\.)?stat\.m\.jd\.com$
 ^(.*\.)?stats\.chinaz\.com$
 ^(.*\.)?stats\.developingperspective\.com$
 ^(.*\.)?stats\.jpush\.cn$
 ^(.*\.)?switchadhub\.com$
 ^(.*\.)?synacast\.com$
 ^(.*\.)?sysdig\.com$
-^(.*\.)?tanx\.com$
 ^(.*\.)?tapjoyads\.com$
 ^(.*\.)?th7\.cn$
 ^(.*\.)?tiqcdn\.com$
@@ -5338,7 +5282,6 @@
 ^(.*\.)?yigao\.com$
 ^(.*\.)?yiqifa\.com$
 ^(.*\.)?yooli\.com$
-^(.*\.)?youmi\.net$
 ^(.*\.)?yrxmr\.com$
 ^(.*\.)?ysjwj\.com$
 ^(.*\.)?yunjiasu\.com$
