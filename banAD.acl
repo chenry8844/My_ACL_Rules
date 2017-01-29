@@ -1,5 +1,5 @@
-# 0.19
-# 2017年1月29日13:56:10
+# 0.20
+# 2017年1月29日14:11:36
 #leosam1995
 #实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -30,22 +30,24 @@
 ^(.*\.)?localhost$
 
 # 国内特殊域名直连
-^(.*\.)?.*\.cn$
+^(.*\.)?cn$
 ^(.*\.)?edu\.cn$
 ^(.*\.)?gov\.cn$
 ^(.*\.)?net\.cn$
 ^(.*\.)?org\.cn$
 
-
 # Accelerate direct sites
+^(.*\.)?10010\.com$
+^(.*\.)?115\.com$
 ^(.*\.)?126\.net$
 ^(.*\.)?163\.com$
+^(.*\.)?17k\.com$
 ^(.*\.)?360\.com$
 ^(.*\.)?360buy\.com$
 ^(.*\.)?360buyimg\.com$
 ^(.*\.)?36kr\.com$
+^(.*\.)?4399\.com$
 ^(.*\.)?71\.am$
-^(.*\.)?\.intl\.taobao\.com$
 ^(.*\.)?abercrombie\.com$
 ^(.*\.)?acfun\.tv$
 ^(.*\.)?acgvideo\.com$
@@ -60,6 +62,7 @@
 ^(.*\.)?autonavi\.com$
 ^(.*\.)?bababian\.com$
 ^(.*\.)?baidu\.com$
+^(.*\.)?baike\.com$
 ^(.*\.)?battle\.net$
 ^(.*\.)?bbs\.feng\.com$
 ^(.*\.)?bdimg\.com$
@@ -70,6 +73,7 @@
 ^(.*\.)?caiyunapp\.com$
 ^(.*\.)?ccgslb\.com$
 ^(.*\.)?ccgslb\.net$
+^(.*\.)?cctv\.com$
 ^(.*\.)?chinacache\.net$
 ^(.*\.)?chunbo\.com$
 ^(.*\.)?chunboimg\.com$
@@ -77,12 +81,17 @@
 ^(.*\.)?cmfu\.com$
 ^(.*\.)?cnbeta\.com$
 ^(.*\.)?cnbetacdn\.com$
+^(.*\.)?cnki\.net$
+^(.*\.)?csdn\.net$
 ^(.*\.)?culturedcode\.com$
 ^(.*\.)?didialift\.com$
+^(.*\.)?docin\.com$
 ^(.*\.)?douban\.com$
 ^(.*\.)?doubanio\.com$
+^(.*\.)?douyu\.com$
 ^(.*\.)?duokan\.com$
 ^(.*\.)?duoshuo\.com$
+^(.*\.)?duowan\.com$
 ^(.*\.)?dytt8\.net$
 ^(.*\.)?easou\.com$
 ^(.*\.)?ec4\.images-amazon\.com$
@@ -97,17 +106,22 @@
 ^(.*\.)?godic\.net$
 ^(.*\.)?gtimg\.com$
 ^(.*\.)?haibian\.com$
+^(.*\.)?hao123\.com$
 ^(.*\.)?haosou\.com$
 ^(.*\.)?hdslb\.com$
 ^(.*\.)?hdslb\.net$
 ^(.*\.)?hollisterco\.com$
 ^(.*\.)?hongxiu\.com$
+^(.*\.)?huajiao\.com$
+^(.*\.)?huya\.com$
 ^(.*\.)?hxcdn\.net$
 ^(.*\.)?iciba\.com$
 ^(.*\.)?ifeng\.com$
 ^(.*\.)?ifengimg\.com$
+^(.*\.)?intl\.taobao\.com$
 ^(.*\.)?ipip\.net$
 ^(.*\.)?iqiyi\.com$
+^(.*\.)?ithome\.com$
 ^(.*\.)?ithome\.net$
 ^(.*\.)?ixdzs\.com$
 ^(.*\.)?jd\.com$
@@ -120,8 +134,10 @@
 ^(.*\.)?lemicp\.com$
 ^(.*\.)?letv\.com$
 ^(.*\.)?letvcloud\.com$
+^(.*\.)?longzhu\.com$
 ^(.*\.)?luoo\.net$
 ^(.*\.)?lxdns\.com$
+^(.*\.)?mbalib\.com$
 ^(.*\.)?mi\.com$
 ^(.*\.)?miaopai\.com$
 ^(.*\.)?miui\.com$
@@ -134,6 +150,7 @@
 ^(.*\.)?netease\.com$
 ^(.*\.)?ourdvs\.com$
 ^(.*\.)?overcast\.fm$
+^(.*\.)?panda\.tv$
 ^(.*\.)?piaotian\.net$
 ^(.*\.)?pstatp\.com$
 ^(.*\.)?qbox\.me$
@@ -150,7 +167,10 @@
 ^(.*\.)?qiyipic\.com$
 ^(.*\.)?qq\.com$
 ^(.*\.)?qqurl\.com$
+^(.*\.)?quanmin\.tv$/
 ^(.*\.)?rarbg\.to$
+^(.*\.)?readnovel\.com$
+^(.*\.)?repaik\.com$
 ^(.*\.)?rime\.im$
 ^(.*\.)?rrmj\.tv$
 ^(.*\.)?ruguoapp\.com$
@@ -171,6 +191,7 @@
 ^(.*\.)?tenpay\.com$
 ^(.*\.)?tietuku\.com$
 ^(.*\.)?tmall\.com$
+^(.*\.)?ttmeiju\.com$
 ^(.*\.)?tudou\.com$
 ^(.*\.)?udache\.com$
 ^(.*\.)?upaiyun\.com$
@@ -188,22 +209,30 @@
 ^(.*\.)?xiaomi\.net$
 ^(.*\.)?xiaomicp\.com$
 ^(.*\.)?ximalaya\.com$
+^(.*\.)?xinhuanet\.com$
 ^(.*\.)?xitek\.com$
 ^(.*\.)?xmcdn\.com$
 ^(.*\.)?xslb\.net$
 ^(.*\.)?xunlei\.com$
+^(.*\.)?xxsy\.net$
 ^(.*\.)?yach\.me$
 ^(.*\.)?yeepay\.com$
 ^(.*\.)?yhd\.com$
 ^(.*\.)?yinxiang\.com$
+^(.*\.)?yinyuetai\.com$$
 ^(.*\.)?yixia\.com$
 ^(.*\.)?ykimg\.com$
 ^(.*\.)?youdao\.com$
 ^(.*\.)?youku\.com$
+^(.*\.)?zdfans\.com$
 ^(.*\.)?zealer\.com$
 ^(.*\.)?zgslb\.net$
+^(.*\.)?zhanqi\.tv$/
 ^(.*\.)?zhihu\.com$
 ^(.*\.)?zhimg\.com$
+^(.*\.)?zhongsou\.com$
+^(.*\.)?zhulang\.com$
+^(.*\.)?zmz2017\.com$
 
 # Sony
 ^(.*\.)?playstation\.com$
@@ -4688,7 +4717,7 @@
 
 #**********************************************************************
 [outbound_block_list]
-#这里不允许 ip111 访问
+
 # AD Block KEYWORD
 # 实验功能 可能有误伤
 ^(.*\.)?.*admarvel.*\..*$
