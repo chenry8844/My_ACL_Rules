@@ -1,5 +1,5 @@
 # 0.20
-# 2017年1月29日14:11:36
+# 2017年1月29日14:45:18
 #leosam1995
 #实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -4718,8 +4718,7 @@
 #**********************************************************************
 [outbound_block_list]
 
-# AD Block KEYWORD
-# 实验功能 可能有误伤
+# 广告关键词 实验功能 可能有误伤
 ^(.*\.)?.*admarvel.*\..*$
 ^(.*\.)?.*admaster.*\..*$
 ^(.*\.)?.*adsage.*\..*$
@@ -4742,7 +4741,6 @@
 ^(.*\.)?.*usage.*\..*$
 ^(.*\.)?.*wlmonitor.*\..*$
 ^(.*\.)?.*zjtoolbar.*\..*$
-
 
 # Ali
 ^(.*\.)?acjs\.aliyun\.com$
@@ -4769,8 +4767,8 @@
 ^(.*\.)?pics\.taobaocdn\.com$
 ^(.*\.)?pindao\.huoban\.taobao\.com$
 ^(.*\.)?rj\.m\.taobao\.co$
-^(.*\.)?show\.re\.taobao\.com$
 ^(.*\.)?simaba\.taobao\.com$
+^(.*\.)?show\.re\.taobao\.com$
 ^(.*\.)?strip\.taobaocdn\.com$
 ^(.*\.)?tanx\.com$
 ^(.*\.)?tns\.simba\.taobao\.com$
@@ -4959,11 +4957,13 @@
 ^(.*\.)?we\.tm$
 
 # Wi-Fi key
+^(.*\.)?wifiapi01\.51y5\.net$
+^(.*\.)?wifiapi02\.51y5\.net$
+
 ^(.*\.)?c\.51y5\.net$
 ^(.*\.)?cds\.51y5\.net$
 ^(.*\.)?ios-dc\.51y5\.net$
 ^(.*\.)?news-img\.51y5\.net$
-^(.*\.)?wifiapi02\.51y5\.net$
 ^(.*\.)?wkanc\.com$
 
 # Google
