@@ -1,6 +1,12 @@
 下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 #更新历史：
 
+0.21
+删减一些规则
+将广告过滤规则 挪到前面 易于编辑
+### [bypass_list]直连列表 在710多行
+### [proxy_list] 代理列表 在5400多行
+
 # 0.20
 # 2017年1月29日14:11:36
 添加国内直播、新闻、小说、文库等网站直连 大约20个
@@ -33,5 +39,6 @@
 # 0.16以前
 # 2017年1月28日以前
 各种添加规则。。。。。
+
 
 https://raw.githubusercontent.com/lhie1/Surge/master/more/New
