@@ -823,6 +823,7 @@
 ^(.*\.)?jianshu\.io$
 ^(.*\.)?jianshuapi\.com$
 ^(.*\.)?jiathis\.com$
+^(.*\.)?kankan\.com$
 ^(.*\.)?knewone\.com$
 ^(.*\.)?lecloud\.com$
 ^(.*\.)?lemicp\.com$
