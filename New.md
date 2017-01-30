@@ -1,11 +1,10 @@
 下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 #更新历史：
 
-0.21
+# 0.21
+# 2017年1月30日17:49:46
+添加迅雷看看
 删减一些规则
-将广告过滤规则 挪到前面 易于编辑
-### [bypass_list]直连列表 在710多行
-### [proxy_list] 代理列表 在5400多行
 
 # 0.20
 # 2017年1月29日14:11:36
