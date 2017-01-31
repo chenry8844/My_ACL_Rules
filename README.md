@@ -12,9 +12,11 @@
 * 所有国内网站均直接连接
 
 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
+
 参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 
 ♻️ SSR Download：
+
 WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 
 安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
