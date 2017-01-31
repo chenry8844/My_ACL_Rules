@@ -381,7 +381,7 @@
 ^(.*\.)?m-78\.jp$
 ^(.*\.)?shizen-no-megumi\.com$
 
-# Ads in Video apps********************上面都是
+# Ads in Video apps end ********************上面都是
 
 # PlayStation Store
 # ^(.*\.)?flashtalking\.com$
@@ -733,6 +733,9 @@
 ^(.*\.)?gov\.cn$
 ^(.*\.)?net\.cn$
 ^(.*\.)?org\.cn$
+^(.*\.)?中国$
+^(.*\.)?公司$
+^(.*\.)?网络$
 
 # Accelerate direct sites
 ^(.*\.)?10010\.com$
@@ -5458,6 +5461,10 @@
 203.174.77.0/24
 216.58.197.100/32
 
+# 美国网站直连 通用规则
+^(.*\.)?us$
+^(.*\.)?.*google.*\..*$
+
 # Force some domains which are fucked by GFW while resolving DNS
 ^(.*\.)accounts\.google\.com$
 ^(.*\.)?appspot\.com$
@@ -5476,7 +5483,7 @@
 ^(.*\.)?twitter\.com$
 ^(.*\.)?youtube-nocookie\.com$
 ^(.*\.)?youtube\.com$
-^(.*\.)?.*google.*\..*$
+
 
 # Top blocked sites
 ^(.*\.)?2o7\.net$
