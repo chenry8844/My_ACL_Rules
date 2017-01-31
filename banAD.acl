@@ -1,5 +1,5 @@
 # 0.23
-# 2017年1月31日20:39:12
+# 2017年1月31日21:26:28
 #leosam1995
 #实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -5458,6 +5458,26 @@
 203.174.77.0/24
 216.58.197.100/32
 
+# Force some domains which are fucked by GFW while resolving DNS
+^(.*\.)accounts\.google\.com$
+^(.*\.)?appspot\.com$
+^(.*\.)?cdninstagram\.com$
+^(.*\.)?facebook\.com$
+^(.*\.)?fb\.com$
+^(.*\.)?fb\.me$
+^(.*\.)?fbcdn\.net$
+^(.*\.)?gmail\.com$
+^(.*\.)?googleapis\.com$
+^(.*\.)?instagram\.com$
+^(.*\.)?scdn\.co$
+^(.*\.)?t\.co$
+^(.*\.)?twimg\.com$
+^(.*\.)?twitpic\.com$
+^(.*\.)?twitter\.com$
+^(.*\.)?youtube-nocookie\.com$
+^(.*\.)?youtube\.com$
+^(.*\.)?.*google.*\..*$
+
 # Top blocked sites
 ^(.*\.)?2o7\.net$
 ^(.*\.)?4sqi\.net$
@@ -5758,23 +5778,3 @@
 ^(.*\.)?youtu\.be$
 ^(.*\.)?yoyo\.org$
 ^(.*\.)?ytimg\.com$
-
-# Force some domains which are fucked by GFW while resolving DNS
-^(.*\.)accounts\.google\.com$
-^(.*\.)?appspot\.com$
-^(.*\.)?cdninstagram\.com$
-^(.*\.)?facebook\.com$
-^(.*\.)?fb\.com$
-^(.*\.)?fb\.me$
-^(.*\.)?fbcdn\.net$
-^(.*\.)?gmail\.com$
-^(.*\.)?googleapis\.com$
-^(.*\.)?instagram\.com$
-^(.*\.)?scdn\.co$
-^(.*\.)?t\.co$
-^(.*\.)?twimg\.com$
-^(.*\.)?twitpic\.com$
-^(.*\.)?twitter\.com$
-^(.*\.)?youtube-nocookie\.com$
-^(.*\.)?youtube\.com$
-^(.*\.)?.*google.*\..*$
