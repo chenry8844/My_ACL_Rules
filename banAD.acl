@@ -1,5 +1,5 @@
-# 0.22
-# 2017年1月30日18:16:28
+# 0.23
+# 2017年1月31日20:39:12
 #leosam1995
 #实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -736,6 +736,7 @@
 # Accelerate direct sites
 ^(.*\.)?10010\.com$
 ^(.*\.)?115\.com$
+^(.*\.)?12306\.com$
 ^(.*\.)?126\.net$
 ^(.*\.)?163\.com$
 ^(.*\.)?17k\.com$
@@ -755,13 +756,13 @@
 ^(.*\.)?alicdn\.com$
 ^(.*\.)?alipay\.com$
 ^(.*\.)?amap\.com$
+^(.*\.)?amazon\.com$
 ^(.*\.)?appstore\.com$
 ^(.*\.)?autonavi\.com$
 ^(.*\.)?bababian\.com$
 ^(.*\.)?baidu\.com$
 ^(.*\.)?baike\.com$
 ^(.*\.)?battle\.net$
-^(.*\.)?bbs\.feng\.com$
 ^(.*\.)?bdimg\.com$
 ^(.*\.)?bdstatic\.com$
 ^(.*\.)?bilibili\.com$
@@ -775,6 +776,7 @@
 ^(.*\.)?chunbo\.com$
 ^(.*\.)?chunboimg\.com$
 ^(.*\.)?clouddn\.com$
+^(.*\.)?cloudmagic\.com$
 ^(.*\.)?cmfu\.com$
 ^(.*\.)?cnbeta\.com$
 ^(.*\.)?cnbetacdn\.com$
@@ -791,14 +793,12 @@
 ^(.*\.)?duowan\.com$
 ^(.*\.)?dytt8\.net$
 ^(.*\.)?easou\.com$
-^(.*\.)?ec4\.images-amazon\.com$
 ^(.*\.)?ecitic\.com$
 ^(.*\.)?ewqcxz\.com$
 ^(.*\.)?feng\.com$
 ^(.*\.)?fir\.im$
 ^(.*\.)?frdic\.com$
 ^(.*\.)?fresh-ideas\.cc$
-^(.*\.)?g-ec4\.images-amazon\.com$
 ^(.*\.)?geetest\.com$
 ^(.*\.)?godic\.net$
 ^(.*\.)?gtimg\.com$
@@ -815,6 +815,7 @@
 ^(.*\.)?iciba\.com$
 ^(.*\.)?ifeng\.com$
 ^(.*\.)?ifengimg\.com$
+^(.*\.)?images-amazon\.com$
 ^(.*\.)?intl\.taobao\.com$
 ^(.*\.)?ipip\.net$
 ^(.*\.)?iqiyi\.com$
@@ -827,6 +828,7 @@
 ^(.*\.)?jianshuapi\.com$
 ^(.*\.)?jiathis\.com$
 ^(.*\.)?kankan\.com$
+^(.*\.)?kaola\.com$
 ^(.*\.)?knewone\.com$
 ^(.*\.)?lecloud\.com$
 ^(.*\.)?lemicp\.com$
@@ -838,6 +840,7 @@
 ^(.*\.)?mbalib\.com$
 ^(.*\.)?mi\.com$
 ^(.*\.)?miaopai\.com$
+^(.*\.)?microsoft\.com$
 ^(.*\.)?miui\.com$
 ^(.*\.)?miwifi\.com$
 ^(.*\.)?mmstat\.com$
@@ -850,6 +853,7 @@
 ^(.*\.)?overcast\.fm$
 ^(.*\.)?panda\.tv$
 ^(.*\.)?piaotian\.net$
+^(.*\.)?pptv\.com$
 ^(.*\.)?pstatp\.com$
 ^(.*\.)?qbox\.me$
 ^(.*\.)?qcloud\.com$
@@ -895,6 +899,8 @@
 ^(.*\.)?upaiyun\.com$
 ^(.*\.)?upyun\.com$
 ^(.*\.)?uxengine\.net$
+^(.*\.)?v2ex\.co$
+^(.*\.)?v2ex\.com$
 ^(.*\.)?weibo\.com$
 ^(.*\.)?weiphone\.com$
 ^(.*\.)?weiphone\.net$
