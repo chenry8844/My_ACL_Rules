@@ -1,6 +1,10 @@
 下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 #更新历史：
 
+# 0.23
+# 2017年1月31日20:39:12
+日常维护：添加几个直连网站
+
 # 0.22
 # 2017年1月30日18:16:28
 删减一些规则
