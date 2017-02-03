@@ -1,5 +1,5 @@
-# 0.24
-# 2017年2月2日18:16:29
+# 0.25
+# 2017年2月3日11:48:59  02.03 
 #leosam1995
 #实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -22,8 +22,8 @@
 
 #**********************************************************************
 [outbound_block_list]
-# 广告关键词 实验功能 可能有误伤
 
+# 广告关键词 实验功能 可能有误伤
 ^(.*\.)?.*admarvel.*\..*$
 ^(.*\.)?.*admaster.*\..*$
 ^(.*\.)?.*adsage.*\..*$
@@ -148,14 +148,14 @@
 ^(.*\.)?zhuanfakong\.com$
 
 #mp4ba
+^(.*\.)?37wan\.cn$
 ^(.*\.)?fd7c\.com$
-^(.*\.)?youle55\.com$
 ^(.*\.)?haohaowan8\.com$
+^(.*\.)?he2d\.com$
+^(.*\.)?shentus\.com$
 ^(.*\.)?tiangoutai\.com$
 ^(.*\.)?twcczhu\.com$
-^(.*\.)?he2d\.com$
-^(.*\.)?37wan\.cn$
-^(.*\.)?shentus\.com$
+^(.*\.)?youle55\.com$
 
 # Sina
 ^(.*\.)?ad\.sina\.com\.cn$
@@ -172,19 +172,19 @@
 ^(.*\.)?biz\.weibo\.com$
 ^(.*\.)?game\.weibo\.cn$
 ^(.*\.)?game\.weibo\.com$
+^(.*\.)?gw5\.push\.mcp\.weibo\.cn$
 ^(.*\.)?newspush\.sinajs\.cn$
 ^(.*\.)?pay\.mobile\.sina\.cn$
 ^(.*\.)?promote\.biz\.weibo\.cn$
 ^(.*\.)?sdkapp\.mobile\.sina\.cn$
 ^(.*\.)?sdkclick\.mobile\.sina\.cn$
+^(.*\.)?static\.g\.ppstream\.com$
 ^(.*\.)?trends\.mobile\.sina\.cn$
+^(.*\.)?u1\.img\.mobile\.sina\.cn$
 ^(.*\.)?wbapp\.mobile\.sina\.cn$
 ^(.*\.)?wbclick\.mobile\.sina\.cn$
 ^(.*\.)?wbpctips\.mobile\.sina\.cn$
 ^(.*\.)?zymo\.mps\.weibo\.com$
-^(.*\.)?gw5\.push\.mcp\.weibo\.cn$
-^(.*\.)?static\.g\.ppstream\.com$
-^(.*\.)?u1\.img\.mobile\.sina\.cn$
 
 # QQ
 #^(.*\.)?.*omgmta.*\..*$
@@ -215,7 +215,9 @@
 
 # 360
 ^(.*\.)?3600\.com$
+^(.*\.)?adapi\.shouji\.360\.cn$
 ^(.*\.)?dev\.tg\.wan\.360\.cn$
+^(.*\.)?huodong\.ios\.shouji\.360\.cn$
 ^(.*\.)?kuaikan\.netmon\.360safe\.com$
 ^(.*\.)?leak\.360\.cn$
 ^(.*\.)?openbox\.mobilem\.360\.cn$
@@ -224,8 +226,6 @@
 ^(.*\.)?stat\.360safe\.com$
 ^(.*\.)?stat\.m\.360\.cn$
 ^(.*\.)?update\.360safe\.com$
-^(.*\.)?adapi\.shouji\.360\.cn$
-^(.*\.)?huodong\.ios\.shouji\.360\.cn$
 
 # 163
 ^(.*\.)?adgeo\.163\.com$
@@ -233,8 +233,8 @@
 ^(.*\.)?f1\.p0y\.cn$
 ^(.*\.)?f2\.p0y\.cn$
 ^(.*\.)?fa\.163\.com$
-^(.*\.)?g\.163\.com$
 ^(.*\.)?g1\.163\.com$
+^(.*\.)?g\.163\.com$
 ^(.*\.)?gb\.corp\.163\.com$
 ^(.*\.)?img1\.126\.net$
 ^(.*\.)?oimagea2\.ydstatic\.com$
@@ -248,6 +248,7 @@
 
 # Kakao Talk
 ^(.*\.)?kakao\.com$
+
 # 12306
 ^(.*\.)?ad\.12306\.cn$
 
@@ -282,7 +283,7 @@
 ^(.*\.)?doubleclick\.com$
 ^(.*\.)?doubleclick\.net$
 # Disable customized fonts
-^(.*\.)?fonts\.googleapis\.com$ 
+^(.*\.)?fonts\.googleapis\.com$
 ^(.*\.)?googleadsserving\.cn$
 ^(.*\.)?googlecommerce\.com$
 ^(.*\.)?googletagmanager\.com$
@@ -376,21 +377,14 @@
 ^(.*\.)?crt\.comodoca\.com$
 ^(.*\.)?delivery\.dmkt-sp\.jp$
 ^(.*\.)?files\.adform\.net$
-^(.*\.)?nicorette\.co\.kr$
-^(.*\.)?nichibenren\.or\.jp$
 ^(.*\.)?m-78\.jp$
+^(.*\.)?nichibenren\.or\.jp$
+^(.*\.)?nicorette\.co\.kr$
 ^(.*\.)?shizen-no-megumi\.com$
 
 # Ads in Video apps end ********************上面都是
 
-# PlayStation Store
-# ^(.*\.)?flashtalking\.com$
-# ^(.*\.)?optimix\.asia$
-# ^(.*\.)?googleadservices\.com$
-# ^(.*\.)?doubleclick\.net$
-
-
-#AD Block
+#AD Block Others
 ^(.*\.)?10up\.com$
 ^(.*\.)?111cn\.net$
 ^(.*\.)?114la\.com$
@@ -853,12 +847,14 @@
 ^(.*\.)?moke\.com$
 ^(.*\.)?myqcloud\.com$
 ^(.*\.)?myunlu\.com$
+^(.*\.)?neihanshequ\.com$
 ^(.*\.)?netease\.com$
 ^(.*\.)?ourdvs\.com$
 ^(.*\.)?overcast\.fm$
 ^(.*\.)?panda\.tv$
 ^(.*\.)?piaotian\.net$
 ^(.*\.)?pptv\.com$
+^(.*\.)?pstatp\.com$
 ^(.*\.)?pstatp\.com$
 ^(.*\.)?qbox\.me$
 ^(.*\.)?qcloud\.com$
@@ -870,6 +866,7 @@
 ^(.*\.)?qin\.io$
 ^(.*\.)?qiniucdn\.com$
 ^(.*\.)?qiniudn\.com$
+^(.*\.)?qiushibaike\.com$
 ^(.*\.)?qiyi\.com$
 ^(.*\.)?qiyipic\.com$
 ^(.*\.)?qq\.com$
@@ -906,6 +903,7 @@
 ^(.*\.)?uxengine\.net$
 ^(.*\.)?v2ex\.co$
 ^(.*\.)?v2ex\.com$
+^(.*\.)?vip\.com$
 ^(.*\.)?weibo\.com$
 ^(.*\.)?weiphone\.com$
 ^(.*\.)?weiphone\.net$
@@ -943,36 +941,10 @@
 ^(.*\.)?zhulang\.com$
 ^(.*\.)?zmz2017\.com$
 
-# Sony
-^(.*\.)?playstation\.com$
-^(.*\.)?playstation\.com\.hk$
-^(.*\.)?playstation\.net$
-^(.*\.)?playstationnetwork\.com$
-^(.*\.)?sony\.com$
-^(.*\.)?sony\.com\.hk$
-^(.*\.)?sony\.net$
-^(.*\.)?sonyentertainmentnetwork\.com$
-
-# MytvSUPER & Netflix
-^(.*\.)?.*nowtv100.*\..*$
-^(.*\.)?.*rthklive.*\..*$
-^(.*\.)?netflix\.com$
-^(.*\.)?netflix\.net$
-^(.*\.)?nflxext\.com$
-^(.*\.)?nflximg\.com$
-^(.*\.)?nflximg\.net$
-^(.*\.)?nflxvideo\.net$
-^(.*\.)?tvb\.com$
-^(.*\.)?mytvsuper\.com$
-
 # Meitu
-^(.*\.)?a\.koudai\.com$
-^(.*\.)?corp\.meitu\.com$
-^(.*\.)?gg\.meitu\.com$
-^(.*\.)?message\.meitu\.com$
-^(.*\.)?xiuxiu\.android\.dl\.meitu\.com$
-^(.*\.)?xiuxiu\.mobile\.meitudata\.com$
-^(.*\.)?tuiguang\.meitu\.com$
+^(.*\.)?koudai\.com$
+^(.*\.)?meitu\.com$
+^(.*\.)?meitudata\.com$
 
 # Apple
 ^(.*\.)?aaplimg\.com$
@@ -981,7 +953,6 @@
 ^(.*\.)?icloud-content\.com$
 ^(.*\.)?icloud\.com$
 ^(.*\.)?itunes\.com$
-^(.*\.)?itunes\.apple\.com$
 ^(.*\.)?me\.com$
 
 #**********************************************************************
@@ -5462,8 +5433,9 @@
 203.174.77.0/24
 216.58.197.100/32
 
-# 美国网站直连 通用规则
+# 美国网站全部代理 通用规则
 ^(.*\.)?us$
+# 谷歌全部代理 通用规则
 ^(.*\.)?.*google.*\..*$
 
 # Force some domains which are fucked by GFW while resolving DNS
@@ -5484,7 +5456,6 @@
 ^(.*\.)?twitter\.com$
 ^(.*\.)?youtube-nocookie\.com$
 ^(.*\.)?youtube\.com$
-
 
 # Top blocked sites
 ^(.*\.)?2o7\.net$
