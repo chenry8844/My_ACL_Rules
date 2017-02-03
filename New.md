@@ -1,6 +1,18 @@
 下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 #更新历史：
 
+# 0.25
+# 2017年2月3日11:48:59  02.03
+把AD规则进行排序优化
+添加直连：唯品会 一号店 内涵段子 糗事百科
+精简 美图 Apple直连列表
+删除PlayStation Store广告和直连 安卓又不用 加他干啥呢
+删除#MytvSUPER & Netflix直连 安卓不用 
+
+# 0.24
+# 2017年2月2日11:56:31  02.02
+把greasyfork.org填加到直连列表（via浏览器
+
 # 0.23
 # 2017年1月31日20:39:12
 添加几个直连网站
