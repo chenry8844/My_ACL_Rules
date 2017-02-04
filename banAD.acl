@@ -157,60 +157,48 @@
 (^|\.)twcczhu\.com$
 (^|\.)youle55\.com$
 
-# Sina
-(^|\.)ad\.sina\.com\.cn$
-(^|\.)adm\.leju\.sina\.com\.cn$
-(^|\.)atm\.sina\.com$
-(^|\.)beacon\.sina\.com\.cn$
-(^|\.)dcads\.sina\.com\.cn$
-(^|\.)sax\.sina\.cn$
-(^|\.)sax\.sina\.com\.cn$
-(^|\.)tjs\.sjs\.sinajs\.cn$
+# 新浪 Sina
+(^|\.)(ad|adm|atm|beacon|dcads|sax|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
+(^|\.)(adimg|pay|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
+(^|\.)(alitui|biz|game)\.weibo\.com(\.cn|)$
 
-(^|\.)adimg\.mobile\.sina\.cn$
-(^|\.)alitui\.weibo\.com$
-(^|\.)biz\.weibo\.com$
-(^|\.)game\.weibo\.cn$
-(^|\.)game\.weibo\.com$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
 (^|\.)newspush\.sinajs\.cn$
-(^|\.)pay\.mobile\.sina\.cn$
 (^|\.)promote\.biz\.weibo\.cn$
-(^|\.)sdkapp\.mobile\.sina\.cn$
-(^|\.)sdkclick\.mobile\.sina\.cn$
 (^|\.)static\.g\.ppstream\.com$
-(^|\.)trends\.mobile\.sina\.cn$
 (^|\.)u1\.img\.mobile\.sina\.cn$
-(^|\.)wbapp\.mobile\.sina\.cn$
-(^|\.)wbclick\.mobile\.sina\.cn$
-(^|\.)wbpctips\.mobile\.sina\.cn$
 (^|\.)zymo\.mps\.weibo\.com$
+
+
+# 网易163
+(^|\.)(adgeo|bobo|fa|g|g1|gb)(\.corp|)\.163\.com$
+(^|\.)f1\.p0y\.cn$
+(^|\.)f2\.p0y\.cn$
+(^|\.)img1\.126\.net$
+(^|\.)oadz\.com$
+(^|\.)oimagea2\.ydstatic\.com$
+(^|\.)pagechoice\.net$
+(^|\.)prom\.gome\.com\.cn$
+(^|\.)qchannel01\.cn$
+(^|\.)rlogs\.youdao\.com$
+(^|\.)static\.flv\.uuzuonline\.com$
+(^|\.)wanproxy\.127\.net$
+(^|\.)ws\.126\.net$
 
 # QQ
 #(^|\.).*omgmta.*\..*$
-(^|\.)act\.qq\.com$
+(^|\.)(act|adsfile|beacon|e|gdt|l|monitor|pingjs|pingtcss|report|tajs|tcss)(\.uu|)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)adsense\.html5\.qq\.com$
-(^|\.)adsfile\.qq\.com$
 (^|\.)adsolution\.imtt\.qq\.com$
 (^|\.)btrace\.qq\.com$
 (^|\.)bugly\.qq\.com$
 (^|\.)buluo\.qq\.com$
 (^|\.)cpro\.qqtn\.com$
-(^|\.)e\.qq\.com$
-(^|\.)gdt\.qq\.com$
-(^|\.)l\.qq\.com$
-(^|\.)monitor\.uu\.qq\.com$
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
 (^|\.)mqqad\.html5\.qq\.com$
 (^|\.)pgdt\.gtimg\.cn$
-(^|\.)pingjs\.qq\.com$
-(^|\.)pingma\.qq\.com$
-(^|\.)pingtcss\.qq\.com$
 (^|\.)qqvideo\.tc\.qq\.com$
-(^|\.)report\.qq\.com$
-(^|\.)tajs\.qq\.com$
-(^|\.)tcss\.qq\.com$
 (^|\.)tpush\.html5\.qq\.com$
 
 # 360
@@ -227,24 +215,7 @@
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
 
-# 163
-(^|\.)adgeo\.163\.com$
-(^|\.)bobo\.163\.com$
-(^|\.)f1\.p0y\.cn$
-(^|\.)f2\.p0y\.cn$
-(^|\.)fa\.163\.com$
-(^|\.)g1\.163\.com$
-(^|\.)g\.163\.com$
-(^|\.)gb\.corp\.163\.com$
-(^|\.)img1\.126\.net$
-(^|\.)oimagea2\.ydstatic\.com$
-(^|\.)pagechoice\.net$
-(^|\.)prom\.gome\.com\.cn$
-(^|\.)qchannel01\.cn$
-(^|\.)rlogs\.youdao\.com$
-(^|\.)stat\.ws\.126\.net$
-(^|\.)static\.flv\.uuzuonline\.com$
-(^|\.)wanProxy\.127\.net$
+
 
 # Kakao Talk
 (^|\.)kakao\.com$
@@ -5434,7 +5405,28 @@
 (^|\.)us$
 # 谷歌全部代理 通用规则
 (^|\.)gmail\.com$
-(^|\.)google.*\..*$
+(^|\.)google(\.(?!-)[a-zA-Z0-9-]{1,63}(?<!-)){1,2}$
+(^|\.)googleapis(\.(?!-)[a-zA-Z0-9-]{1,63}(?<!-)){1,2}$
+(^|\.)googleapps\.com$
+(^|\.)googleartproject\.com$
+(^|\.)googleblog\.com$
+(^|\.)googlebot\.com$
+(^|\.)googlecode\.com$
+(^|\.)googlecommerce\.com$
+(^|\.)googledomains\.com$
+(^|\.)googleearth\.com$
+(^|\.)googledrive\.com$
+(^|\.)googlegroups\.com$
+(^|\.)googlehosted\.com$
+(^|\.)googleideas\.com$
+(^|\.)googlelabs\.com$
+(^|\.)googlemail\.com$
+(^|\.)googleplay\.com$
+(^|\.)googleplus\.com$
+(^|\.)googlesource\.com$
+(^|\.)googleusercontent\.com$
+(^|\.)googlevideo\.com$
+(^|\.)googlezip\.net$
 
 # Force some domains which are fucked by GFW while resolving DNS
 ^(.*\.)accounts\.google\.com$
