@@ -841,7 +841,7 @@
 (^|\.)qiyipic\.com$
 (^|\.)qq\.com$
 (^|\.)qqurl\.com$
-(^|\.)quanmin\.tv$/
+(^|\.)quanmin\.tv$
 (^|\.)rarbg\.to$
 (^|\.)readnovel\.com$
 (^|\.)repaik\.com$
@@ -904,7 +904,7 @@
 (^|\.)zdfans\.com$
 (^|\.)zealer\.com$
 (^|\.)zgslb\.net$
-(^|\.)zhanqi\.tv$/
+(^|\.)zhanqi\.tv$
 (^|\.)zhihu\.com$
 (^|\.)zhimg\.com$
 (^|\.)zhongsou\.com$
@@ -929,6 +929,20 @@
 [proxy_list]
 #这里让 ip138 走代理
 (^|\.)ip138\.com$
+
+#MyList
+(^|\.)tumbex\.com$
+(^|\.)twdvd\.com$
+(^|\.)btlibrary\.me$
+(^|\.)cccat\.cc$
+(^|\.)github\.com$
+(^|\.)s3\.amazonaws\.com$
+(^|\.)bit\.no\.com$
+(^|\.)bandwagonhost\.com$
+(^|\.)usercdn\.com$
+(^|\.)userscloud\.com$
+(^|\.)ja7lib\.com$
+(^|\.)xn--i2ru8q2qg\.com$
 
 #Telegram / LINE / Kakao Talk, Workaround for some apps
 1.201.0.0/24
@@ -1009,8 +1023,8 @@
 (^|\.)twitter\.com$
 (^|\.)youtube-nocookie\.com$
 (^|\.)youtube\.com$
-#  gfwlist
 
+#  gfwlist
 (^|\.)4tern\.com$
 (^|\.)adorama\.com$
 (^|\.)akiba-web\.com$
