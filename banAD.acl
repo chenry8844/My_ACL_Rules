@@ -1,5 +1,5 @@
-# 0.26
-# 2017年2月4日13:54:47  02.04 
+# 1.01 重大更新★★★
+# 2017年2月4日14:17:50  02.04
 #leosam1995
 #实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -24,28 +24,28 @@
 [outbound_block_list]
 
 # 广告关键词 实验功能 可能有误伤
-(^|\.).*admarvel.*\..*$
-(^|\.).*admaster.*\..*$
-(^|\.).*adsage.*\..*$
-(^|\.).*adsmogo.*\..*$
-(^|\.).*adsrvmedia.*\..*$
-(^|\.).*adwords.*\..*$
-(^|\.).*domob.*\..*$
-(^|\.).*duomeng.*\..*$
-(^|\.).*dwtrack.*\..*$
-(^|\.).*guanggao.*\..*$
-(^|\.).*lianmeng.*\..*$
-(^|\.).*omgmta.*\..*$
-(^|\.).*openx.*\..*$
-(^|\.).*partnerad.*\..*$
-(^|\.).*pingfore.*\..*$
-(^|\.).*supersonicads.*\..*$
-(^|\.).*tracking.*\..*$
-(^|\.).*uedas.*\..*$
-(^|\.).*umeng.*\..*$
-(^|\.).*usage.*\..*$
-(^|\.).*wlmonitor.*\..*$
-(^|\.).*zjtoolbar.*\..*$
+(^|\.)\w*admarvel\w*\.\w*$
+(^|\.)\w*admaster\w*\.\w*$
+(^|\.)\w*adsage\w*\.\w*$
+(^|\.)\w*adsmogo\w*\.\w*$
+(^|\.)\w*adsrvmedia\w*\.\w*$
+(^|\.)\w*adwords\w*\.\w*$
+(^|\.)\w*domob\w*\.\w*$
+(^|\.)\w*duomeng\w*\.\w*$
+(^|\.)\w*dwtrack\w*\.\w*$
+(^|\.)\w*guanggao\w*\.\w*$
+(^|\.)\w*lianmeng\w*\.\w*$
+(^|\.)\w*omgmta\w*\.\w*$
+(^|\.)\w*openx\w*\.\w*$
+(^|\.)\w*partnerad\w*\.\w*$
+(^|\.)\w*pingfore\w*\.\w*$
+(^|\.)\w*supersonicads\w*\.\w*$
+(^|\.)\w*tracking\w*\.\w*$
+(^|\.)\w*uedas\w*\.\w*$
+(^|\.)\w*umeng\w*\.\w*$
+(^|\.)\w*usage\w*\.\w*$
+(^|\.)\w*wlmonitor\w*\.\w*$
+(^|\.)\w*zjtoolbar\w*\.\w*$
 
 # Ali
 (^|\.)acjs\.aliyun\.com$
@@ -186,7 +186,7 @@
 (^|\.)ws\.126\.net$
 
 # QQ
-#(^|\.).*omgmta.*\..*$
+#(^|\.)\w*omgmta\w*\.\w*$
 (^|\.)(act|adsfile|beacon|e|gdt|l|monitor|pingjs|pingtcss|report|tajs|tcss)(\.uu|)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)adsense\.html5\.qq\.com$
@@ -591,7 +591,7 @@
 
 // 封锁软件隐私追踪
 // Block privacy tracker within apps
-(^|\.).*flurry.co.*\..*$
+(^|\.)\w*flurry.co\w*\.\w*$
 (^|\.)alexa\.links\.cn$
 (^|\.)api\.adform\.com$
 (^|\.)api\.amplitude\.com$
@@ -5429,7 +5429,7 @@
 (^|\.)googlezip\.net$
 
 # Force some domains which are fucked by GFW while resolving DNS
-^(.*\.)accounts\.google\.com$
+(^|\.)accounts\.google\.com$
 (^|\.)appspot\.com$
 (^|\.)cdninstagram\.com$
 (^|\.)facebook\.com$
