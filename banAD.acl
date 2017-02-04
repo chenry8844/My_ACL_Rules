@@ -1,5 +1,5 @@
-# 1.01 重大更新★★★
-# 2017年2月4日14:17:50  02.04
+# 1.02 ★★★
+# 2017年2月4日23:21:17  02.04
 #leosam1995
 #实验功能：广告关键字拦截 可能有误伤！！！
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -48,32 +48,18 @@
 (^|\.)\w*zjtoolbar\w*\.\w*$
 
 # Ali
+(^|\.)(afp|atanx|gma)\.alicdn\.com$
+(^|\.)(nbsdk-baichuan|simaba)\.taobao\.com$
+(^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
+(^|\.)(acs4baichuan|adash|adashbc|adashx|amdc|apoll|m-adash|rj)\.m\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
-(^|\.)acs4baichuan\.m\.taobao\.com$
-(^|\.)adash\.m\.taobao\.com$
-(^|\.)adash\.ut\.taobao\.com$
-(^|\.)adashbc\.m\.taobao\.com$
-(^|\.)adashbc\.ut\.taobao\.com$
-(^|\.)adashx\.m\.taobao\.com$
-(^|\.)adashxgc\.ut\.taobao\.com$
-(^|\.)afp\.alicdn\.com$
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
-(^|\.)amdc\.m\.taobao\.com$
-(^|\.)apoll\.m\.taobao\.com$
-(^|\.)appdownload\.alicdn\.com$
-(^|\.)atanx\.alicdn\.com$
 (^|\.)dorangesource\.alicdn\.com$
-(^|\.)gma\.alicdn\.com$
 (^|\.)hydra\.alibaba\.com$
-(^|\.)m-adash\.m\.taobao\.com$
-(^|\.)nbsdk-baichuan\.alicdn\.com$
-(^|\.)nbsdk-baichuan\.taobao\.com$
 (^|\.)pics\.taobaocdn\.com$
 (^|\.)pindao\.huoban\.taobao\.com$
-(^|\.)rj\.m\.taobao\.co$
 (^|\.)show\.re\.taobao\.com$
-(^|\.)simaba\.taobao\.com$
 (^|\.)strip\.taobaocdn\.com$
 (^|\.)tanx\.com$
 (^|\.)tns\.simba\.taobao\.com$
@@ -81,60 +67,25 @@
 (^|\.)yiliao\.hupan\.com$
 
 # Baidu
-(^|\.)a\.baidu\.com$
-(^|\.)adm\.baidu\.com$
+(^|\.)(a|adm|as|baidutv|bar|c|cbjs|cjhq|cpro|drmcmm|e|eclick|eiv|entry|hc|hm|hmma|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
+(^|\.)(pos|rj|spcode|tk|tuisong|ucstat|ufosdk|union|utility|utk|wangmeng|wm|zhanzhang|znsv)\.baidu\.com$
 (^|\.)api\.youqian\.baidu\.com$
-(^|\.)as\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidustatic\.com$
-(^|\.)baidutv\.baidu\.com$
-(^|\.)bar\.baidu\.com$
 (^|\.)boscdn\.bpc\.baidu\.com$
-(^|\.)c\.baidu\.com$
-(^|\.)cbjs\.baidu\.com$
-(^|\.)cjhq\.baidu\.com$
-(^|\.)cpro\.baidu\.com$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
 (^|\.)dcps\.nuomi\.com$
-(^|\.)drmcmm\.baidu\.com$
-(^|\.)e\.baidu\.com$
-(^|\.)eclick\.baidu\.com$
-(^|\.)eiv\.baidu\.com$
-(^|\.)entry\.baidu\.com$
-(^|\.)hc\.baidu\.com$
-(^|\.)hm\.baidu\.com$
-(^|\.)hmma\.baidu\.com$
 (^|\.)httb1\.bdstatic\.com$
-(^|\.)imageplus\.baidu\.com$
 (^|\.)itsdata\.map\.baidu\.com$
 (^|\.)log\.nuomi\.com$
 (^|\.)log\.waimai\.baidu\.com$
-(^|\.)ma\.baidu\.com$
-(^|\.)mobads-logs\.baidu\.com$
-(^|\.)mobads\.baidu\.com$
-(^|\.)mtj\.baidu\.com$
-(^|\.)nsclick\.baidu\.com$
-(^|\.)pos\.baidu\.com$
 (^|\.)res\.cocounion\.com$
 (^|\.)res\.limei\.com$
-(^|\.)rj\.baidu\.com$
 (^|\.)shifen\.com$
-(^|\.)spcode\.baidu\.com$
 (^|\.)static\.map\.bdimg\.com$
 (^|\.)static\.su\.baidu\.com$
-(^|\.)tk\.baidu\.com$
-(^|\.)tuisong\.baidu\.com$
-(^|\.)ucstat\.baidu\.com$
-(^|\.)ufosdk\.baidu\.com$
 (^|\.)ulog\.imap\.baidu\.com$
-(^|\.)union\.baidu\.com$
-(^|\.)utility\.baidu\.com$
-(^|\.)utk\.baidu\.com$
-(^|\.)wangmeng\.baidu\.com$
-(^|\.)wm\.baidu\.com$
-(^|\.)zhanzhang\.baidu\.com$
-(^|\.)znsv\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
 
 # shumilou
@@ -186,14 +137,11 @@
 (^|\.)ws\.126\.net$
 
 # QQ
-#(^|\.)\w*omgmta\w*\.\w*$
 (^|\.)(act|adsfile|beacon|e|gdt|l|monitor|pingjs|pingtcss|report|tajs|tcss)(\.uu|)\.qq\.com$
+(^|\.)(btrace|bugly|buluo)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)adsense\.html5\.qq\.com$
 (^|\.)adsolution\.imtt\.qq\.com$
-(^|\.)btrace\.qq\.com$
-(^|\.)bugly\.qq\.com$
-(^|\.)buluo\.qq\.com$
 (^|\.)cpro\.qqtn\.com$
 (^|\.)mqqad\.cs0309\.html5\.qq\.com$
 (^|\.)mqqad\.html5\.qq\.com$
@@ -215,8 +163,6 @@
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
 
-
-
 # Kakao Talk
 (^|\.)kakao\.com$
 
@@ -224,7 +170,7 @@
 (^|\.)ad\.12306\.cn$
 
 # Line
-(^|\.)line-cdn\.net,$
+(^|\.)line-cdn\.net$
 (^|\.)line-apps\.com$
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
@@ -234,13 +180,8 @@
 (^|\.)we\.tm$
 
 # Wi-Fi key
-(^|\.)wifiapi01\.51y5\.net$
-(^|\.)wifiapi02\.51y5\.net$
-
-(^|\.)c\.51y5\.net$
-(^|\.)cds\.51y5\.net$
-(^|\.)ios-dc\.51y5\.net$
-(^|\.)news-img\.51y5\.net$
+(^|\.)(wifiapi01|wifiapi02)\.51y5\.net$
+(^|\.)(c|cds|news-img)\.51y5\.net$
 (^|\.)wkanc\.com$
 
 # Google
@@ -251,8 +192,7 @@
 (^|\.)afd\.l\.google\.com$
 (^|\.)badad\.googleplex\.com$
 (^|\.)csi\.gstatic\.com$
-(^|\.)doubleclick\.com$
-(^|\.)doubleclick\.net$
+(^|\.)doubleclick(\.com|\.net)$
 # Disable customized fonts
 (^|\.)fonts\.googleapis\.com$
 (^|\.)googleadsserving\.cn$
@@ -693,14 +633,7 @@
 (^|\.)localhost$
 
 # 国内特殊域名直连
-(^|\.)cn$
-(^|\.)edu\.cn$
-(^|\.)gov\.cn$
-(^|\.)net\.cn$
-(^|\.)org\.cn$
-(^|\.)中国$
-(^|\.)公司$
-(^|\.)网络$
+^(.*\.)?cn$
 
 # Accelerate direct sites
 (^|\.)10010\.com$
@@ -841,7 +774,7 @@
 (^|\.)qiyipic\.com$
 (^|\.)qq\.com$
 (^|\.)qqurl\.com$
-(^|\.)quanmin\.tv$/
+(^|\.)quanmin\.tv$
 (^|\.)rarbg\.to$
 (^|\.)readnovel\.com$
 (^|\.)repaik\.com$
@@ -904,7 +837,7 @@
 (^|\.)zdfans\.com$
 (^|\.)zealer\.com$
 (^|\.)zgslb\.net$
-(^|\.)zhanqi\.tv$/
+(^|\.)zhanqi\.tv$
 (^|\.)zhihu\.com$
 (^|\.)zhimg\.com$
 (^|\.)zhongsou\.com$
@@ -5370,6 +5303,19 @@
 #这里让 ip138 走代理
 (^|\.)ip138\.com$
 
+#MyList
+(^|\.)tumbex\.com$
+(^|\.)twdvd\.com$
+(^|\.)btlibrary\.me$
+(^|\.)cccat\.cc$
+(^|\.)s3\.amazonaws\.com$
+(^|\.)bit\.no\.com$
+(^|\.)bandwagonhost\.com$
+(^|\.)usercdn\.com$
+(^|\.)userscloud\.com$
+(^|\.)ja7lib\.com$
+(^|\.)xn--i2ru8q2qg\.com$
+
 #Telegram / LINE / Kakao Talk, Workaround for some apps
 1.201.0.0/24
 27.0.236.0/22
@@ -5404,17 +5350,16 @@
 216.58.197.100/32
 
 # 美国网站全部代理 通用规则
-(^|\.)us$
+^(.*\.)?us$
 # 谷歌全部代理 通用规则
 (^|\.)gmail\.com$
-(^|\.)google(\.(?!-)[a-zA-Z0-9-]{1,63}(?<!-)){1,2}$
-(^|\.)googleapis(\.(?!-)[a-zA-Z0-9-]{1,63}(?<!-)){1,2}$
+(^|\.)google(\.[^.]{2,4}){1,2}$
+(^|\.)googleapis(\.[^.]{2,4}){1,2}$
 (^|\.)googleapps\.com$
 (^|\.)googleartproject\.com$
 (^|\.)googleblog\.com$
 (^|\.)googlebot\.com$
 (^|\.)googlecode\.com$
-(^|\.)googlecommerce\.com$
 (^|\.)googledomains\.com$
 (^|\.)googleearth\.com$
 (^|\.)googledrive\.com$
@@ -5438,8 +5383,6 @@
 (^|\.)fb\.com$
 (^|\.)fb\.me$
 (^|\.)fbcdn\.net$
-(^|\.)gmail\.com$
-(^|\.)googleapis\.com$
 (^|\.)instagram\.com$
 (^|\.)scdn\.co$
 (^|\.)t\.co$
@@ -5495,7 +5438,7 @@
 (^|\.)blogcdn\.com$
 (^|\.)blogger\.com$
 (^|\.)blogsmithmedia\.com$
-(^|\.)blogspot(\.(?!-)[a-zA-Z0-9-]{1,63}(?<!-)){1,2}$
+(^|\.)blogspot(\.[^.]{2,4}){1,2}$
 (^|\.)bloomberg\.com$
 (^|\.)boomtrain\.com$
 (^|\.)box\.com$
