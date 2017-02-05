@@ -1,5 +1,5 @@
-# 1.03 ★★★
-# 2017年2月5日09:35:43  02.05
+# 1.03 
+# 2017年2月5日10:00:51 02.05
 #leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -9,19 +9,19 @@
 
 #参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 #参照scomper大神的surge规则改编，致谢!!https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
-#更新记录：https://github.com/leosam1995/My_ACL_Rules/blob/master/New.md
+#更新记录：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/New.md
 #下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 
 #**********************************************************************
 [proxy_all]
-### 默认代理
-
+# 默认代理
 ### [outbound_block_list] 禁止访问列表 
 ### [bypass_list]直连列表 禁止访问列表 在620多行
 ### [proxy_list] 代理列表 在5300多行  
 
 #**********************************************************************
 [outbound_block_list]
+# 禁止访问列表 广告拦截
 
 # 广告关键词 实验功能 可能有误伤
 (^|\.)\w*admarvel\w*\.\w*$
@@ -204,67 +204,40 @@
 (^|\.)line\.naver\.jp$
 
 # Ads in Video apps********************下面都是
+
 # iqiyi
+(^|\.)(afp|ifacelog|rcd)\.qiyi\.com$
+(^|\.)(msg|msg2)\.video\.qiyi\.com$
 (^|\.)ad\.m\.iqiyi\.com$
-(^|\.)afp\.qiyi\.com$
-(^|\.)ifacelog\.iqiyi\.com$
-(^|\.)msg\.video\.qiyi\.com$
-(^|\.)msg2\.video\.qiyi\.com$
-(^|\.)msg2\.video\.qiyi\.com$
-(^|\.)rcd\.iqiyi\.com$
 
 # Youku & Tudou
-(^|\.)actives\.youku\.com$
-(^|\.)ad\.api\.3g\.tudou\.com$
-(^|\.)ad\.api\.3g\.youku\.com$
-(^|\.)ad\.mobile\.youku\.com$
-(^|\.)adcontrol\.tudou\.com$
-(^|\.)adplay\.tudou\.com$
-(^|\.)das\.mobile\.youku\.com$
-(^|\.)atm\.youku\.com$
+(^|\.)(actives|atm|hz|lstat|lvip|msg|stat|ykatr|ykrectab)\.youku\.com$
+(^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat)\.tudou\.com$
+(^|\.)(ad|das)\.mobile\.youku\.com$
+(^|\.)(p|r|v)\.l\.youku\.com$
+(^|\.)ad\.api\.3g(\.tudou\.youku)\.com$
 (^|\.)c\.yes\.youku\.com$
 (^|\.)e\.stat\.ykimg\.com$
-(^|\.)goods\.tudou\.com$
 (^|\.)hudong\.pl\.youku\.com$
-(^|\.)hz\.youku\.com$
-(^|\.)iwstat\.tudou\.com$
-(^|\.)lstat\.youku\.com$
-(^|\.)lvip\.youku\.com$
-(^|\.)msg\.youku\.com$
-(^|\.)nstat\.tudou\.com$
 (^|\.)p-log\.ykimg\.com$
 (^|\.)p\.l\.ykimg\.com$
-(^|\.)p\.l\.youku\.com$
-(^|\.)r\.l\.youku\.com$
-(^|\.)stat\.tudou\.com$
-(^|\.)stat\.youku\.com$
-(^|\.)v\.l\.youku\.com$
-(^|\.)ykatr\.youku\.com$
-(^|\.)ykrectab\.youku\.com$
 
 # letv
 # (^|\.)ark\.letv\.com$
-(^|\.)dc\.letv\.com$
-(^|\.)fz\.letv\.com$
-(^|\.)g3\.letv\.com$
+(^|\.)(dc|fz|g3|pro|stat)\.letv\.com$
 (^|\.)minisite\.letv\.com$
 (^|\.)n\.mark\.letv\.com$
-(^|\.)pro\.letv\.com$
 (^|\.)pro\.hoye\.letv\.com$
-(^|\.)stat\.letv\.com$
 
 # sohu
-(^|\.)agn\.aty\.sohu\.com$
+(^|\.)(agn|m|mmg)\.aty\.sohu\.com$
 (^|\.)data\.vod\.itc\.cn$
-(^|\.)m\.aty\.sohu\.com$
-(^|\.)mmg\.aty\.sohu\.com$
 (^|\.)pv\.sohu\.com$
 (^|\.)statcounter\.com$
 
 # pptv
+(^|\.)(de|jp)\.as\.pptv\.com$
 (^|\.)asimgs\.pplive\.cn$
-(^|\.)de\.as\.pptv\.com$
-(^|\.)jp\.as\.pptv\.com$
 
 # fenghuang
 (^|\.)mfp\.deliver\.ifeng\.com$
@@ -282,6 +255,7 @@
 (^|\.)m-78\.jp$
 (^|\.)shizen-no-megumi\.com$
 
+(^|\.)(shrek|simba|union)\.6\.cn$
 (^|\.)ads\.cdn\.tvb\.com$
 (^|\.)btrace\.video\.qq\.com$
 (^|\.)c\.algovid\.com$
@@ -298,14 +272,11 @@
 (^|\.)pop\.uusee\.com$
 (^|\.)pq\.stat\.ku6\.com$
 (^|\.)rtb\.behe\.com$
-(^|\.)shrek\.6\.cn$
-(^|\.)simba\.6\.cn$
 (^|\.)st\.vq\.ku6\.cn$
 (^|\.)static\.bshare\.cn$
 (^|\.)static\.duoshuo\.com$
 (^|\.)static\.ku6\.com$
 (^|\.)t\.cr-nielsen\.com$
-(^|\.)union\.6\.cn$
 (^|\.)x\.da\.hunantv\.com$
 
 # Ads in Video apps end ********************上面都是
