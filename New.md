@@ -1,6 +1,11 @@
 下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 #更新历史：
 
+# 1.03 
+# 2017年2月5日10:00:51 02.05
+将视频APP拦截规则分开 更清晰
+合并爱奇艺 优酷土豆 乐视TV 搜狐 PPTV 6.cn 视频app规则
+
 # 1.02 ★★★
 # 2017年2月4日23:21:17  02.04
 重要更新：（总体来说加快正则匹配速度）★★★
