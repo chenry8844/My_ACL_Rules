@@ -1,5 +1,5 @@
-# 1.03 
-# 2017年2月5日10:00:51 02.05
+# 1.04
+# 2017年2月5日14:42:50 02.05
 #leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -97,10 +97,10 @@
 (^|\.)update\.360safe\.com$
 
 # Ali
+(^|\.)(acs4baichuan|adash|adashbc|adashx|amdc|apoll|m-adash|rj)\.m\.taobao\.com$
+(^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
 (^|\.)(afp|atanx|gma)\.alicdn\.com$
 (^|\.)(nbsdk-baichuan|simaba)\.taobao\.com$
-(^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
-(^|\.)(acs4baichuan|adash|adashbc|adashx|amdc|apoll|m-adash|rj)\.m\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
@@ -286,8 +286,8 @@
 (^|\.)111cn\.net$
 (^|\.)114la\.com$
 (^|\.)123\.sogou\.com$
-(^|\.)51\.la$
 (^|\.)513hch\.com$
+(^|\.)51\.la$
 (^|\.)51yes\.com$
 (^|\.)818mov\.com$
 (^|\.)86\.cc$
@@ -609,6 +609,9 @@
 [bypass_list]
 # 直连列表
 
+#MyList
+(^|\.)translate\.google\.cn$
+
 # 局域网直连
 127.0.0.1
 192.168.0.0/16
@@ -618,7 +621,7 @@
 100.64.0.0/10
 (^|\.)localhost$
 
-# 国内特殊域名直连
+# 中国CN域名直连
 ^(.*\.)?cn$
 
 # Accelerate direct sites
@@ -5286,10 +5289,9 @@
 
 #**********************************************************************
 [proxy_list]
-#这里让 ip138 走代理
-(^|\.)ip138\.com$
 
 #MyList
+(^|\.)ip138\.com$
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)btlibrary\.me$
@@ -5339,8 +5341,8 @@
 ^(.*\.)?us$
 # 谷歌全部代理 通用规则
 (^|\.)gmail\.com$
-(^|\.)google(\.[^.]{2,4}){1,2}$
-(^|\.)googleapis(\.[^.]{2,4}){1,2}$
+(^|\.)google(\.[^.n]{2,4}){1,2}
+(^|\.)googleapis(\.[^.n]{2,4}){1,2}
 (^|\.)googleapps\.com$
 (^|\.)googleartproject\.com$
 (^|\.)googleblog\.com$
