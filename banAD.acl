@@ -1,7 +1,7 @@
-# 1.02 ★★★
-# 2017年2月4日23:21:17  02.04
+# 1.03 ★★★
+# 2017年2月5日09:35:43  02.05
 #leosam1995
-#实验功能：广告关键字拦截 可能有误伤！！！
+#实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
 #屏蔽部分运营商劫持网页弹出的漂浮球广告&流量统计
 #拦截常用应用程序的隐私跟踪&行为分析&数据统计&开屏广告
@@ -17,8 +17,8 @@
 ### 默认代理
 
 ### [outbound_block_list] 禁止访问列表 
-### [bypass_list]直连列表 禁止访问列表 在710多行
-### [proxy_list] 代理列表 在5400多行  
+### [bypass_list]直连列表 禁止访问列表 在620多行
+### [proxy_list] 代理列表 在5300多行  
 
 #**********************************************************************
 [outbound_block_list]
@@ -47,25 +47,6 @@
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
 
-# Ali
-(^|\.)(afp|atanx|gma)\.alicdn\.com$
-(^|\.)(nbsdk-baichuan|simaba)\.taobao\.com$
-(^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
-(^|\.)(acs4baichuan|adash|adashbc|adashx|amdc|apoll|m-adash|rj)\.m\.taobao\.com$
-(^|\.)acjs\.aliyun\.com$
-(^|\.)alipaylog\.com$
-(^|\.)amdc\.alipay\.com$
-(^|\.)dorangesource\.alicdn\.com$
-(^|\.)hydra\.alibaba\.com$
-(^|\.)pics\.taobaocdn\.com$
-(^|\.)pindao\.huoban\.taobao\.com$
-(^|\.)show\.re\.taobao\.com$
-(^|\.)strip\.taobaocdn\.com$
-(^|\.)tanx\.com$
-(^|\.)tns\.simba\.taobao\.com$
-(^|\.)userimg\.qunar\.com$
-(^|\.)yiliao\.hupan\.com$
-
 # Baidu
 (^|\.)(a|adm|as|baidutv|bar|c|cbjs|cjhq|cpro|drmcmm|e|eclick|eiv|entry|hc|hm|hmma|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
 (^|\.)(pos|rj|spcode|tk|tuisong|ucstat|ufosdk|union|utility|utk|wangmeng|wm|zhanzhang|znsv)\.baidu\.com$
@@ -87,54 +68,6 @@
 (^|\.)static\.su\.baidu\.com$
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
-
-# shumilou
-(^|\.)70e\.com$
-(^|\.)drdwy\.com$
-(^|\.)e701\.net$
-(^|\.)jisucn\.com$
-(^|\.)sanya1\.com$
-(^|\.)stats\.magicwindow\.cn$
-(^|\.)xyrkl\.com$
-(^|\.)zhuanfakong\.com$
-
-#mp4ba
-(^|\.)37wan\.cn$
-(^|\.)fd7c\.com$
-(^|\.)haohaowan8\.com$
-(^|\.)he2d\.com$
-(^|\.)shentus\.com$
-(^|\.)tiangoutai\.com$
-(^|\.)twcczhu\.com$
-(^|\.)youle55\.com$
-
-# 新浪 Sina
-(^|\.)(ad|adm|atm|beacon|dcads|sax|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
-(^|\.)(adimg|pay|sdkapp|sdkclick|trends|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
-(^|\.)(alitui|biz|game)\.weibo\.com(\.cn|)$
-
-(^|\.)gw5\.push\.mcp\.weibo\.cn$
-(^|\.)newspush\.sinajs\.cn$
-(^|\.)promote\.biz\.weibo\.cn$
-(^|\.)static\.g\.ppstream\.com$
-(^|\.)u1\.img\.mobile\.sina\.cn$
-(^|\.)zymo\.mps\.weibo\.com$
-
-
-# 网易163
-(^|\.)(adgeo|bobo|fa|g|g1|gb)(\.corp|)\.163\.com$
-(^|\.)f1\.p0y\.cn$
-(^|\.)f2\.p0y\.cn$
-(^|\.)img1\.126\.net$
-(^|\.)oadz\.com$
-(^|\.)oimagea2\.ydstatic\.com$
-(^|\.)pagechoice\.net$
-(^|\.)prom\.gome\.com\.cn$
-(^|\.)qchannel01\.cn$
-(^|\.)rlogs\.youdao\.com$
-(^|\.)static\.flv\.uuzuonline\.com$
-(^|\.)wanproxy\.127\.net$
-(^|\.)ws\.126\.net$
 
 # QQ
 (^|\.)(act|adsfile|beacon|e|gdt|l|monitor|pingjs|pingtcss|report|tajs|tcss)(\.uu|)\.qq\.com$
@@ -163,26 +96,51 @@
 (^|\.)stat\.m\.360\.cn$
 (^|\.)update\.360safe\.com$
 
-# Kakao Talk
-(^|\.)kakao\.com$
+# Ali
+(^|\.)(afp|atanx|gma)\.alicdn\.com$
+(^|\.)(nbsdk-baichuan|simaba)\.taobao\.com$
+(^|\.)(adash|adashbc|adashxgc)\.ut\.taobao\.com$
+(^|\.)(acs4baichuan|adash|adashbc|adashx|amdc|apoll|m-adash|rj)\.m\.taobao\.com$
+(^|\.)acjs\.aliyun\.com$
+(^|\.)alipaylog\.com$
+(^|\.)amdc\.alipay\.com$
+(^|\.)dorangesource\.alicdn\.com$
+(^|\.)hydra\.alibaba\.com$
+(^|\.)pics\.taobaocdn\.com$
+(^|\.)pindao\.huoban\.taobao\.com$
+(^|\.)show\.re\.taobao\.com$
+(^|\.)strip\.taobaocdn\.com$
+(^|\.)tanx\.com$
+(^|\.)tns\.simba\.taobao\.com$
+(^|\.)userimg\.qunar\.com$
+(^|\.)yiliao\.hupan\.com$
 
-# 12306
-(^|\.)ad\.12306\.cn$
+# 新浪 Sina
+(^|\.)(ad|adm|atm|beacon|dcads|sax|tjs)(\.leju|\.sjs)\.sina\.com(\.cn|)$
+(^|\.)(adimg|pay|sdkclick|trends|wbclick|wbpctips)\.mobile\.sina\.cn$
+(^|\.)(alitui|biz|game)\.weibo\.com(\.cn|)$
 
-# Line
-(^|\.)line-cdn\.net$
-(^|\.)line-apps\.com$
-(^|\.)line\.me$
-(^|\.)line\.naver\.jp$
+(^|\.)gw5\.push\.mcp\.weibo\.cn$
+(^|\.)newspush\.sinajs\.cn$
+(^|\.)promote\.biz\.weibo\.cn$
+(^|\.)static\.g\.ppstream\.com$
+(^|\.)u1\.img\.mobile\.sina\.cn$
+(^|\.)zymo\.mps\.weibo\.com$
 
-# Weifeng
-(^|\.)tutuapp\.com$
-(^|\.)we\.tm$
-
-# Wi-Fi key
-(^|\.)(wifiapi01|wifiapi02)\.51y5\.net$
-(^|\.)(c|cds|news-img)\.51y5\.net$
-(^|\.)wkanc\.com$
+# 网易163
+(^|\.)(adgeo|bobo|fa|g|g1|gb)(\.corp|)\.163\.com$
+(^|\.)f1\.p0y\.cn$
+(^|\.)f2\.p0y\.cn$
+(^|\.)img1\.126\.net$
+(^|\.)oadz\.com$
+(^|\.)oimagea2\.ydstatic\.com$
+(^|\.)pagechoice\.net$
+(^|\.)prom\.gome\.com\.cn$
+(^|\.)qchannel01\.cn$
+(^|\.)rlogs\.youdao\.com$
+(^|\.)static\.flv\.uuzuonline\.com$
+(^|\.)wanproxy\.127\.net$
+(^|\.)ws\.126\.net$
 
 # Google
 (^|\.)2mdn\.net$
@@ -204,65 +162,96 @@
 (^|\.)pagead\.l\.google\.com$
 (^|\.)service\.urchin\.com$
 
+# Weifeng
+(^|\.)tutuapp\.com$
+(^|\.)we\.tm$
+
+# Wi-Fi key
+(^|\.)(wifiapi01|wifiapi02)\.51y5\.net$
+(^|\.)(c|cds|news-img)\.51y5\.net$
+(^|\.)wkanc\.com$
+
+# 12306
+(^|\.)ad\.12306\.cn$
+
+# shumilou
+(^|\.)70e\.com$
+(^|\.)drdwy\.com$
+(^|\.)e701\.net$
+(^|\.)jisucn\.com$
+(^|\.)sanya1\.com$
+(^|\.)stats\.magicwindow\.cn$
+(^|\.)xyrkl\.com$
+(^|\.)zhuanfakong\.com$
+
+#mp4ba
+(^|\.)37wan\.cn$
+(^|\.)fd7c\.com$
+(^|\.)haohaowan8\.com$
+(^|\.)he2d\.com$
+(^|\.)shentus\.com$
+(^|\.)tiangoutai\.com$
+(^|\.)twcczhu\.com$
+(^|\.)youle55\.com$
+
+# Kakao Talk
+(^|\.)kakao\.com$
+
+# Line
+(^|\.)line-cdn\.net$
+(^|\.)line-apps\.com$
+(^|\.)line\.me$
+(^|\.)line\.naver\.jp$
+
 # Ads in Video apps********************下面都是
+# iqiyi
+(^|\.)ad\.m\.iqiyi\.com$
+(^|\.)afp\.qiyi\.com$
+(^|\.)ifacelog\.iqiyi\.com$
+(^|\.)msg\.video\.qiyi\.com$
+(^|\.)msg2\.video\.qiyi\.com$
+(^|\.)msg2\.video\.qiyi\.com$
+(^|\.)rcd\.iqiyi\.com$
+
+# Youku & Tudou
 (^|\.)actives\.youku\.com$
 (^|\.)ad\.api\.3g\.tudou\.com$
 (^|\.)ad\.api\.3g\.youku\.com$
-(^|\.)ad\.m\.iqiyi\.com$
+(^|\.)ad\.mobile\.youku\.com$
 (^|\.)adcontrol\.tudou\.com$
 (^|\.)adplay\.tudou\.com$
-(^|\.)ads\.cdn\.tvb\.com$
-(^|\.)afp\.qiyi\.com$
-(^|\.)ark\.letv\.com$
+(^|\.)das\.mobile\.youku\.com$
 (^|\.)atm\.youku\.com$
-(^|\.)btrace\.video\.qq\.com$
-(^|\.)c\.algovid\.com$
 (^|\.)c\.yes\.youku\.com$
-(^|\.)cc\.xtgreat\.com$
-(^|\.)cm\.zhiziyun\.com$
-(^|\.)d\.dsp\.imageter\.com$
-(^|\.)dc\.letv\.com$
-(^|\.)g\.uusee\.com$
-(^|\.)gg\.jtertp\.com$
+(^|\.)e\.stat\.ykimg\.com$
 (^|\.)goods\.tudou\.com$
-(^|\.)gug\.ku6cdn\.com$
-(^|\.)ifacelog\.iqiyi\.com$
+(^|\.)hudong\.pl\.youku\.com$
+(^|\.)hz\.youku\.com$
 (^|\.)iwstat\.tudou\.com$
-(^|\.)kwflvcdn\.000dn\.com$
-(^|\.)lives\.l\.qq\.com$
-(^|\.)logger\.baofeng\.com$
-(^|\.)logstat\.t\.sfht\.com$
 (^|\.)lstat\.youku\.com$
 (^|\.)lvip\.youku\.com$
-(^|\.)match\.rtbidder\.net$
-(^|\.)mp4\.res\.hunantv\.com$
-(^|\.)n-st\.vip\.com$
-(^|\.)n\.mark\.letv\.com$
+(^|\.)msg\.youku\.com$
 (^|\.)nstat\.tudou\.com$
 (^|\.)p-log\.ykimg\.com$
-(^|\.)p\.l\.qq\.com$
 (^|\.)p\.l\.ykimg\.com$
 (^|\.)p\.l\.youku\.com$
-(^|\.)pop\.uusee\.com$
-(^|\.)pq\.stat\.ku6\.com$
 (^|\.)r\.l\.youku\.com$
-(^|\.)rcd\.iqiyi\.com$
-(^|\.)rtb\.behe\.com$
-(^|\.)shrek\.6\.cn$
-(^|\.)simba\.6\.cn$
-(^|\.)st\.vq\.ku6\.cn$
 (^|\.)stat\.tudou\.com$
 (^|\.)stat\.youku\.com$
-(^|\.)static\.bshare\.cn$
-(^|\.)static\.duoshuo\.com$
-(^|\.)static\.ku6\.com$
-(^|\.)static\.lstat\.youku\.com$
-(^|\.)stats\.tudou\.com$
-(^|\.)stuff\.cdn\.biddingx\.com$
-(^|\.)t\.cr-nielsen\.com$
-(^|\.)traffic\.uusee\.com$
-(^|\.)union\.6\.cn$
-(^|\.)x\.da\.hunantv\.com$
+(^|\.)v\.l\.youku\.com$
+(^|\.)ykatr\.youku\.com$
+(^|\.)ykrectab\.youku\.com$
+
+# letv
+# (^|\.)ark\.letv\.com$
+(^|\.)dc\.letv\.com$
+(^|\.)fz\.letv\.com$
+(^|\.)g3\.letv\.com$
+(^|\.)minisite\.letv\.com$
+(^|\.)n\.mark\.letv\.com$
+(^|\.)pro\.letv\.com$
+(^|\.)pro\.hoye\.letv\.com$
+(^|\.)stat\.letv\.com$
 
 # sohu
 (^|\.)agn\.aty\.sohu\.com$
@@ -288,10 +277,36 @@
 (^|\.)crt\.comodoca\.com$
 (^|\.)delivery\.dmkt-sp\.jp$
 (^|\.)files\.adform\.net$
-(^|\.)m-78\.jp$
-(^|\.)nichibenren\.or\.jp$
 (^|\.)nicorette\.co\.kr$
+(^|\.)nichibenren\.or\.jp$
+(^|\.)m-78\.jp$
 (^|\.)shizen-no-megumi\.com$
+
+(^|\.)ads\.cdn\.tvb\.com$
+(^|\.)btrace\.video\.qq\.com$
+(^|\.)c\.algovid\.com$
+(^|\.)cc\.xtgreat\.com$
+(^|\.)d\.dsp\.imageter\.com$
+(^|\.)gg\.jtertp\.com$
+(^|\.)gug\.ku6cdn\.com$
+(^|\.)kwflvcdn\.000dn\.com$
+(^|\.)logger\.baofeng\.com$
+(^|\.)logstat\.t\.sfht\.com$
+(^|\.)match\.rtbidder\.net$
+(^|\.)mp4\.res\.hunantv\.com$
+(^|\.)n-st\.vip\.com$
+(^|\.)pop\.uusee\.com$
+(^|\.)pq\.stat\.ku6\.com$
+(^|\.)rtb\.behe\.com$
+(^|\.)shrek\.6\.cn$
+(^|\.)simba\.6\.cn$
+(^|\.)st\.vq\.ku6\.cn$
+(^|\.)static\.bshare\.cn$
+(^|\.)static\.duoshuo\.com$
+(^|\.)static\.ku6\.com$
+(^|\.)t\.cr-nielsen\.com$
+(^|\.)union\.6\.cn$
+(^|\.)x\.da\.hunantv\.com$
 
 # Ads in Video apps end ********************上面都是
 
@@ -518,7 +533,7 @@
 (^|\.)xmpush\.xiaomi\.com$
 (^|\.)xy\.com$
 (^|\.)yandui\.com$
-(^|\.)yes1\.feng\.com$
+#(^|\.)yes1\.feng\.com$
 (^|\.)yigao\.com$
 (^|\.)yiqifa\.com$
 (^|\.)yooli\.com$
@@ -529,8 +544,8 @@
 (^|\.)zhstatic\.zhihu\.com$
 (^|\.)zzsx8\.com$
 
-// 封锁软件隐私追踪
-// Block privacy tracker within apps
+# 封锁软件隐私追踪
+# Block privacy tracker within apps
 (^|\.)\w*flurry.co\w*\.\w*$
 (^|\.)alexa\.links\.cn$
 (^|\.)api\.adform\.com$
@@ -548,7 +563,7 @@
 (^|\.)syndication\.streamads\.yahoo\.com$
 (^|\.)youmi\.net$
 
-
+# 下面是拦截运营商劫持广告
 # Beijing Mobile Float
 221.179.140.0/24
 221.179.140.145/32
