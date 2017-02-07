@@ -1,5 +1,5 @@
-# 1.04 ★★
-# 2017年2月5日15:19:08 02.05
+# 1.05 ★★
+# 2017年2月6日09:04:55 02.06
 #leosam1995
 #实验功能：域名广告关键字拦截
 #屏蔽常用网站广告、视频网站广告、其他流媒体网站广告
@@ -29,6 +29,7 @@
 # 广告关键词 实验功能 可能有误伤
 (^|\.)\w*admarvel\w*\.\w*$
 (^|\.)\w*admaster\w*\.\w*$
+(^|\.)\w*admob\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
 (^|\.)\w*adsmogo\w*\.\w*$
 (^|\.)\w*adsrvmedia\w*\.\w*$
@@ -38,15 +39,17 @@
 (^|\.)\w*dwtrack\w*\.\w*$
 (^|\.)\w*guanggao\w*\.\w*$
 (^|\.)\w*lianmeng\w*\.\w*$
-(^|\.)\w*omgmta\w*\.\w*$
 (^|\.)\w*openx\w*\.\w*$
 (^|\.)\w*partnerad\w*\.\w*$
 (^|\.)\w*pingfore\w*\.\w*$
+(^|\.)\w*qtmojo\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
 (^|\.)\w*uedas\w*\.\w*$
 (^|\.)\w*umeng\w*\.\w*$
 (^|\.)\w*usage\w*\.\w*$
+(^|\.)\w*trace\w*\.\w*$
+(^|\.)\w*traffic\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
 
@@ -206,6 +209,25 @@
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
 
+# 封锁软件隐私追踪
+# Block privacy tracker within apps
+(^|\.)\w*flurry.co\w*\.\w*$
+(^|\.)alexa\.links\.cn$
+(^|\.)api\.adform\.com$
+(^|\.)api\.amplitude\.com$
+(^|\.)api\.tapstream\.com$
+(^|\.)app\.sysdigcloud\.com$
+(^|\.)bam\.nr-data\.net$
+(^|\.)collector\.githubapp\.com$
+(^|\.)counter\.kingsoft\.com$
+(^|\.)e\.apsalar\.com$
+(^|\.)pixel\.redditmedia\.com$
+(^|\.)pixel\.wp\.com$
+(^|\.)sfsapi\.micloud\.xiaomi\.net$
+(^|\.)stat\.m\.jd\.com$
+(^|\.)syndication\.streamads\.yahoo\.com$
+(^|\.)youmi\.net$
+
 # Ads in Video apps********************下面都是
 
 # iqiyi
@@ -364,7 +386,6 @@
 (^|\.)btyou\.com$
 (^|\.)buysellads\.com$
 (^|\.)c0563\.com$
-(^|\.)cbsistatic\.com$
 (^|\.)cdn\.jiuzhilan\.com$
 (^|\.)chance-ad\.com$
 (^|\.)chartbeat\.com$
@@ -508,7 +529,6 @@
 (^|\.)xmpush\.xiaomi\.com$
 (^|\.)xy\.com$
 (^|\.)yandui\.com$
-#(^|\.)yes1\.feng\.com$
 (^|\.)yigao\.com$
 (^|\.)yiqifa\.com$
 (^|\.)yooli\.com$
@@ -518,25 +538,6 @@
 (^|\.)zhiziyun\.com$
 (^|\.)zhstatic\.zhihu\.com$
 (^|\.)zzsx8\.com$
-
-# 封锁软件隐私追踪
-# Block privacy tracker within apps
-(^|\.)\w*flurry.co\w*\.\w*$
-(^|\.)alexa\.links\.cn$
-(^|\.)api\.adform\.com$
-(^|\.)api\.amplitude\.com$
-(^|\.)api\.tapstream\.com$
-(^|\.)app\.sysdigcloud\.com$
-(^|\.)bam\.nr-data\.net$
-(^|\.)collector\.githubapp\.com$
-(^|\.)counter\.kingsoft\.com$
-(^|\.)e\.apsalar\.com$
-(^|\.)pixel\.redditmedia\.com$
-(^|\.)pixel\.wp\.com$
-(^|\.)sfsapi\.micloud\.xiaomi\.net$
-(^|\.)stat\.m\.jd\.com$
-(^|\.)syndication\.streamads\.yahoo\.com$
-(^|\.)youmi\.net$
 
 # 下面是拦截运营商劫持广告
 # Beijing Mobile Float
@@ -627,6 +628,24 @@
 
 # 中国CN域名直连
 ^(.*\.)?cn$
+
+# 中国国内域名关键词直连
+(^|\.)\w*\-cn\w*\.\w*$
+(^|\.)\w*0x\w*\.\w*$
+(^|\.)\w*360buy\w*\.\w*$
+(^|\.)\w*alimama\w*\.\w*$
+(^|\.)\w*alipay\w*\.\w*$
+(^|\.)\w*appzapp\w*\.\w*$
+(^|\.)\w*ccgslb\w*\.\w*$
+(^|\.)\w*chinacache\w*\.\w*$
+(^|\.)\w*douyu\w*\.\w*$
+(^|\.)\w*duobao\w*\.\w*$
+(^|\.)\w*duolingo\w*\.\w*$
+(^|\.)\w*moke\w*\.\w*$
+(^|\.)\w*sinaimg\w*\.\w*$
+(^|\.)\w*steam\w*\.\w*$
+(^|\.)\w*xiaomi\w*\.\w*$
+(^|\.)\w*xiami\w*\.\w*$
 
 # Accelerate direct sites
 (^|\.)10010\.com$
@@ -739,7 +758,6 @@
 (^|\.)miui\.com$
 (^|\.)miwifi\.com$
 (^|\.)mmstat\.com$
-(^|\.)mob\.com$
 (^|\.)moke\.com$
 (^|\.)myqcloud\.com$
 (^|\.)myunlu\.com$
@@ -5310,6 +5328,18 @@
 # 特殊域名全部代理 通用规则
 ^(.*\.)?us$
 ^(.*\.)?uk$
+^(.*\.)?jp$
+^(.*\.)?tw$
+^(.*\.)?hk$
+^(.*\.)?sg$
+^(.*\.)?co$
+^(.*\.)?cc$
+^(.*\.)?gl$
+
+# 国外软件关键字 全部代理
+(^|\.)\w*dropbox\w*\.\w*$
+(^|\.)\w*telegram\w*\.\w*$
+(^|\.)\w*spotify\w*\.\w*$
 
 #Telegram / LINE / Kakao Talk, Workaround for some apps
 1.201.0.0/24
