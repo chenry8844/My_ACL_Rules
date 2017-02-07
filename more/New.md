@@ -1,5 +1,13 @@
-﻿下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
+下载地址：https://raw.githubusercontent.com/leosam1995/My_ACL_Rules/master/banAD.acl
 #更新历史：
+
+# 1.06 
+# 2017年2月7日15:39:05 02.7
+增加几个广告域名拦截关键字：admob qtmojo trace traffic
+增加几个直连网站域名关键词
+国外知名域名后缀直连：us tw jp等
+增加国外软件关键字 全部代理
+删除几个受影响的广告拦截网站
 
 # 1.04 ★★
 # 2017年2月5日15:12:56 02.05
